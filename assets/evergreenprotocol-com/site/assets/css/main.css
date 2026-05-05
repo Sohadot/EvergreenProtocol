@@ -257,10 +257,65 @@ main {
   color: var(--muted);
 }
 
-.doc-meta-row span {
+.doc-meta-row--home {
+  gap: var(--space-lg);
+}
+
+.doc-meta-row--home .doc-meta-item {
+  flex: 1 1 15rem;
+  min-width: 0;
+}
+
+.doc-meta-label {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--fg);
+  font-weight: 650;
+  font-size: 0.92rem;
+  white-space: nowrap;
+}
+
+.doc-meta-body {
+  display: block;
+  line-height: 1.58;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: manual;
+}
+
+.reading-path {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.45rem;
+}
+
+.reading-unit {
+  flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+}
+
+.reading-unit--sep {
+  color: var(--muted);
+  font-size: 0.88em;
+  line-height: 1;
+  padding: 0 0.1rem;
+  user-select: none;
+}
+
+.reading-chip--static,
+.reading-path a.reading-chip {
+  white-space: nowrap;
+}
+
+.reading-chip--static {
+  color: var(--fg);
+  font-weight: 500;
+}
+
+.reading-path a.reading-chip {
+  font-weight: 500;
 }
 
 article section {
@@ -657,8 +712,8 @@ a.inline:focus-visible {
 
   body {
     background-image:
-      linear-gradient(rgba(26, 61, 48, 0.019) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(26, 61, 48, 0.019) 1px, transparent 1px);
+      linear-gradient(rgba(26, 61, 48, 0.012) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26, 61, 48, 0.012) 1px, transparent 1px);
     background-size: 2rem 2rem;
   }
 
@@ -703,16 +758,53 @@ a.inline:focus-visible {
     align-items: center;
   }
 
-  .doc-meta-row {
+  .doc-meta-row--home {
     flex-direction: column;
     align-items: stretch;
-    gap: var(--space-sm);
+    gap: var(--space-md);
   }
 
-  .doc-meta-row span {
-    max-width: 100%;
-    overflow-wrap: anywhere;
-    line-height: 1.55;
+  .doc-meta-row--home .doc-meta-item {
+    flex: 1 1 100%;
+  }
+
+  .doc-meta-body {
+    padding-right: 0;
+  }
+
+  .reading-path {
+    gap: 0.45rem 0.55rem;
+  }
+
+  .reading-chip--static,
+  .reading-path a.reading-chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 42px;
+    padding: 0.38rem 0.72rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--line);
+    background: var(--bg-elevated);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .reading-path a.reading-chip {
+    text-decoration: none;
+    color: var(--protocol-teal-muted);
+  }
+
+  .reading-path a.reading-chip:hover {
+    color: var(--accent);
+    border-color: var(--accent-border);
+  }
+
+  .reading-chip--static {
+    background: var(--bg-muted);
+    border-color: var(--line-strong);
+  }
+
+  .reading-unit--sep {
+    flex: 0 0 auto;
   }
 
   .doc-summary {
@@ -753,6 +845,11 @@ a.inline:focus-visible {
   a.inline {
     padding: 0.12rem 0;
     overflow-wrap: anywhere;
+  }
+
+  .reading-path a.reading-chip.inline {
+    overflow-wrap: normal;
+    word-break: normal;
   }
 }
 
