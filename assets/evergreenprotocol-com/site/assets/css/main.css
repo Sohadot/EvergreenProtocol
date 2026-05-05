@@ -1,17 +1,21 @@
 :root {
-  --bg: #f7f5f1;
-  --bg-elevated: #fffcf7;
-  --fg: #141815;
-  --muted: #4a5249;
-  --line: #d4cfc4;
-  --line-strong: #b8b2a6;
-  --accent: #1a3328;
-  --accent-soft: #244a3a;
-  --accent-faint: rgba(26, 51, 40, 0.08);
+  --bg: #0f1210;
+  --bg-elevated: #171c18;
+  --bg-muted: #1e2520;
+  --fg: #e6eae6;
+  --muted: #95a096;
+  --line: #2d3530;
+  --line-strong: #3d4740;
+  --accent: #7dad93;
+  --accent-soft: #9bc4ab;
+  --accent-dim: rgba(125, 173, 147, 0.14);
+  --accent-border: rgba(125, 173, 147, 0.35);
+  --layer-philosophical: #8fa7b0;
+  --layer-symbolic: #b0a68c;
   --radius-sm: 4px;
   --radius-md: 8px;
-  --shadow-sm: 0 1px 2px rgba(20, 24, 21, 0.06);
-  --shadow-md: 0 4px 24px rgba(20, 24, 21, 0.08);
+  --shadow-sm: 0 1px 0 rgba(255, 255, 255, 0.04);
+  --shadow-panel: 0 8px 32px rgba(0, 0, 0, 0.35);
   --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -72,8 +76,8 @@ body {
   font-family: var(--font-sans);
   font-size: var(--step--1);
   font-weight: 600;
-  color: var(--bg-elevated);
-  background: var(--accent);
+  color: var(--bg);
+  background: var(--accent-soft);
   border-radius: var(--radius-sm);
   text-decoration: none;
 }
@@ -81,7 +85,7 @@ body {
 .skip-link:focus {
   left: var(--space-md);
   top: var(--space-md);
-  outline: 2px solid var(--accent-soft);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
@@ -103,8 +107,8 @@ header.site {
   z-index: 50;
   border-bottom: 1px solid var(--line);
   padding: var(--space-md) var(--space-lg);
-  background: rgba(255, 252, 247, 0.92);
-  backdrop-filter: blur(10px);
+  background: rgba(15, 18, 16, 0.94);
+  backdrop-filter: blur(12px);
   box-shadow: var(--shadow-sm);
 }
 
@@ -211,10 +215,10 @@ main {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
-  background: var(--accent-faint);
+  color: var(--accent-soft);
+  background: var(--accent-dim);
   border-radius: var(--radius-sm);
-  border: 1px solid rgba(26, 51, 40, 0.15);
+  border: 1px solid var(--accent-border);
 }
 
 .doc-head {
@@ -318,7 +322,6 @@ p {
   border-left: 3px solid var(--accent);
   background: var(--bg-elevated);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  box-shadow: var(--shadow-sm);
 }
 
 .pull-quote p {
@@ -334,7 +337,6 @@ details.depth-toggle {
   background: var(--bg-elevated);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
 }
 
 details.depth-toggle summary {
@@ -342,7 +344,7 @@ details.depth-toggle summary {
   font-family: var(--font-sans);
   font-weight: 650;
   font-size: var(--step--1);
-  color: var(--accent);
+  color: var(--accent-soft);
   list-style: none;
 }
 
@@ -384,7 +386,7 @@ li {
 }
 
 li::marker {
-  color: var(--accent-soft);
+  color: var(--accent);
 }
 
 .layer-stack {
@@ -398,7 +400,6 @@ li::marker {
   border-radius: var(--radius-md);
   padding: var(--space-lg);
   background: var(--bg-elevated);
-  box-shadow: var(--shadow-sm);
 }
 
 .layer-card--structural {
@@ -406,11 +407,11 @@ li::marker {
 }
 
 .layer-card--philosophical {
-  border-top: 3px solid #6b7c72;
+  border-top: 3px solid var(--layer-philosophical);
 }
 
 .layer-card--symbolic {
-  border-top: 3px solid #8a7a62;
+  border-top: 3px solid var(--layer-symbolic);
 }
 
 .layer-card .layer-label {
@@ -449,7 +450,7 @@ li::marker {
   font-family: var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--accent);
+  color: var(--accent-soft);
 }
 
 .layer-box p:last-child {
@@ -459,7 +460,6 @@ li::marker {
 ol.manifesto {
   margin: var(--space-lg) 0 var(--space-md);
   padding: 0 0 0 1.35rem;
-  counter-reset: manifesto;
 }
 
 ol.manifesto li {
@@ -475,10 +475,11 @@ ol.manifesto li strong {
 code {
   font-family: var(--font-mono);
   font-size: 0.9em;
-  background: #ebe6dc;
+  background: var(--bg-muted);
   padding: 0.12em 0.4em;
   border-radius: var(--radius-sm);
   border: 1px solid var(--line);
+  color: var(--fg);
 }
 
 .note {
@@ -486,7 +487,7 @@ code {
   border-left: 3px solid var(--accent);
   padding: var(--space-md) var(--space-lg);
   margin: var(--space-lg) 0;
-  background: var(--bg-elevated);
+  background: var(--bg-muted);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 
@@ -499,7 +500,6 @@ code {
   background: var(--bg-elevated);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
 }
 
 .toc h2 {
@@ -515,7 +515,6 @@ code {
   margin: 0;
   padding: 0;
   list-style: none;
-  counter-reset: toc;
 }
 
 .toc li {
@@ -576,7 +575,7 @@ dd {
 .next-read {
   margin-top: var(--space-xl);
   padding: var(--space-lg);
-  background: linear-gradient(135deg, var(--accent-faint), transparent);
+  background: var(--bg-elevated);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
 }
@@ -596,7 +595,7 @@ footer.site {
   font-size: var(--step--1);
   color: var(--muted);
   font-family: var(--font-sans);
-  background: var(--bg-elevated);
+  background: var(--bg-muted);
 }
 
 .footer-inner {
@@ -645,11 +644,20 @@ a.inline:focus-visible {
 
   body {
     background: #fff;
+    color: #111;
     font-size: 11pt;
   }
 
   main {
     padding: 0;
+  }
+
+  .layer-card,
+  details.depth-toggle,
+  .pull-quote,
+  .note {
+    background: #f9f9f9;
+    border-color: #ccc;
   }
 
   a {
@@ -659,7 +667,6 @@ a.inline:focus-visible {
 
   .layer-card,
   details.depth-toggle {
-    box-shadow: none;
     break-inside: avoid;
   }
 }
