@@ -55,7 +55,10 @@ assets/evergreenprotocol-com/
 
 - **GitHub-first:** Changes enter through this repository; reviews and history apply here.
 - **No parallel output roots:** Do not introduce `docs/`, `dist/`, `public/`, or duplicate site roots as substitute corpora. The governed layout above remains authoritative.
-- **Edge security (later):** A **Cloudflare-class edge security layer** may support DNS, TLS, and edge protection **after** publication pipelines are stable. It is **not** part of the build today, **not** configured in this repository, and **must not** hold source-of-truth content or replace GitHub-governed workflows. No Cloudflare API automation is used here.
+
+### Cloudflare Edge Security (later only)
+
+**Cloudflare** is reserved as an optional **later edge security layer** (for example DNS, TLS, and edge protection). It is **not** the build system, **not** the source of truth, **not** configured in this repository at this stage, and carries **no** operational files here.
 
 ---
 
@@ -74,4 +77,4 @@ This repository is in **active reference construction**: the methodology core (h
 
 ---
 
-**Doctrine:** GitHub governs. The repository builds. The asset remains sovereign. Edge platforms—when adopted—protect delivery; they do not define the asset.
+**Doctrine:** GitHub governs. The repository builds. The asset remains sovereign.

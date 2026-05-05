@@ -52,8 +52,8 @@ Updates to `domain-dossier.md` that imply build changes should be reflected here
 
 This tree defines source layout and governance only. Publication mechanics are **GitHub-first** and live outside this subdirectory specification.
 
-**Authority:** The repository remains the canonical source of truth for architecture, content, templates, scripts, validation, and deployment logic.
+The repository remains the canonical source of truth for architecture, content, templates, scripts, validation, and deployment logic.
 
-**Edge delivery:** Optional future edge security (for example DNS, TLS, and edge protection via a provider such as Cloudflare) is **not** active in this development stage, is **not** configured here, and **does not** participate in build or content authority. When adopted, it serves delivery and protection only; it must not hold unpublished truth or substitute for GitHub. See the repository root **`README.md`** for the institutional formulation.
+### Cloudflare Edge Security (later only)
 
-Cloudflare is **not** part of the build process at present; no API automation applies.
+**Cloudflare** is treated only as a potential **later edge security layer**. It is **not** part of the build, **not** active here, **not** configured in this repository, and must **not** substitute GitHub as authority over architecture or content.
