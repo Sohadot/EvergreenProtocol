@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Methodology — Evergreen Protocol</title>
+  <meta name="description" content="How to construct an Evergreen Protocol: charter, roles, artifacts, acceptance criteria, review cadence, entropy checks, versioning, and a worked example.">
+  <style>
+    :root {
+      --bg: #faf9f7;
+      --fg: #1a1a1a;
+      --muted: #4a4a4a;
+      --line: #d8d4cd;
+      --accent: #1e3a2f;
+      --maxw: 42rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--fg);
+      background: var(--bg);
+    }
+    header.site {
+      border-bottom: 1px solid var(--line);
+      padding: 1.25rem 1.5rem;
+      background: #fff;
+    }
+    .inner { max-width: var(--maxw); margin: 0 auto; }
+    nav.primary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      align-items: baseline;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      font-size: 0.9rem;
+    }
+    nav.primary a { color: var(--accent); text-decoration: none; }
+    nav.primary a:hover { text-decoration: underline; }
+    nav.primary .brand { font-weight: 600; color: var(--fg); margin-right: auto; }
+    main { padding: 2.5rem 1.5rem 4rem; }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin: 0 0 1rem;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 2.25rem 0 0.65rem;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 1.5rem 0 0.5rem;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    }
+    p { margin: 0 0 1rem; }
+    .lede { font-size: 1.1rem; color: var(--muted); }
+    ul, ol { margin: 0 0 1rem 1.1rem; padding: 0; }
+    li { margin-bottom: 0.35rem; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.92em;
+      background: #eee9e2;
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+    }
+    .note {
+      border-left: 3px solid var(--accent);
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+      background: #fff;
+      border: 1px solid var(--line);
+    }
+    footer.site {
+      border-top: 1px solid var(--line);
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    }
+    a.inline { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header class="site">
+    <div class="inner">
+      <nav class="primary" aria-label="Primary">
+        <a class="brand" href="index.html">evergreenprotocol.com</a>
+        <a href="manifesto.html">Manifesto</a>
+        <a href="methodology.html" aria-current="page">Methodology</a>
+        <a href="definitions.html">Definitions</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="inner">
+      <h1>Methodology</h1>
+      <p class="lede">This document specifies how to construct an Evergreen Protocol as defined by this reference. It implements the <strong>Architecture of Constancy</strong> (structure), is motivated by the <strong>Anti-Entropy Protocol</strong> (necessity), and encodes the <strong>Zero-Season Algorithm</strong> as review cadence and entropy checks (non-seasonal timing).</p>
+
+      <h2 id="charter">1. Protocol charter</h2>
+      <p>Every Evergreen Protocol begins with a one-page charter containing:</p>
+      <ul>
+        <li><strong>Title and identifier</strong> — a stable name and a short code (e.g., <code>EP-AUTH-01</code>).</li>
+        <li><strong>Purpose</strong> — one paragraph stating the outcome the protocol protects (validity of decisions, integrity of definitions, continuity of a service, etc.).</li>
+        <li><strong>Scope boundary</strong> — explicit inclusions and exclusions. Exclusions must name adjacent domains handled elsewhere.</li>
+        <li><strong>Primary risk addressed</strong> — the failure mode if the protocol did not exist (drift, silent exceptions, ambiguous ownership, stale public surfaces).</li>
+        <li><strong>Success definition</strong> — what “compliant” means in observable terms, not aspirational adjectives.</li>
+      </ul>
+
+      <h2 id="roles">2. Roles and decision rights</h2>
+      <p>Assign named roles. Titles may vary by organization; functions may not.</p>
+      <ul>
+        <li><strong>Maintainer</strong> — keeps the protocol text current, coordinates reviews, maintains the change log.</li>
+        <li><strong>Approver</strong> — authorizes material changes and exceptions.</li>
+        <li><strong>Evidence steward</strong> — ensures artifacts exist, are reachable, and match the protocol’s claims.</li>
+        <li><strong>Consumer</strong> — roles or teams that must follow the protocol in operation; they have a right to readable specs and predictable change windows.</li>
+      </ul>
+      <p>Decision rights must state: who may propose, who must consult, who approves, and what happens on disagreement (escalation path).</p>
+
+      <h2 id="artifacts">3. Artifacts</h2>
+      <p>Artifacts are the proof layer. Each protocol lists:</p>
+      <ul>
+        <li><strong>Authoritative text</strong> — the protocol document version.</li>
+        <li><strong>Registers</strong> — tables of exceptions, dependencies, owners, or data definitions, as applicable.</li>
+        <li><strong>Interfaces</strong> — URLs, APIs, forms, or system screens governed by the protocol.</li>
+        <li><strong>Evidence samples</strong> — examples of compliant records (redacted as needed).</li>
+      </ul>
+      <p>If an artifact cannot be pointed to, it cannot be audited. The protocol must be revised until artifacts are concrete.</p>
+
+      <h2 id="acceptance">4. Acceptance criteria</h2>
+      <p>Acceptance criteria translate intent into checks. Each criterion should be testable. Examples:</p>
+      <ul>
+        <li>“Every public page in scope lists an owner and last-reviewed date.”</li>
+        <li>“Schema field X has a single definition in the register; duplicates are treated as defects.”</li>
+        <li>“Exceptions require Approver sign-off and expire on a stated date.”</li>
+      </ul>
+
+      <h2 id="review">5. Review cadence (Zero-Season Algorithm)</h2>
+      <p>Define a <em>calendar of validity</em>, not a calendar of fashion. Minimum structure:</p>
+      <ul>
+        <li><strong>Baseline review</strong> — scheduled interval (e.g., annual) triggered by time.</li>
+        <li><strong>Event-triggered review</strong> — mandatory when named dependencies change (vendor, regulation, security class, data source).</li>
+        <li><strong>Quiet period rule</strong> — optional: blackout windows where only emergency fixes apply, to prevent churn disguised as progress.</li>
+      </ul>
+      <p>Reviews answer: Is the protocol still true? Are artifacts still aligned? Are exceptions still justified?</p>
+
+      <h2 id="entropy">6. Entropy checks (Anti-Entropy Protocol)</h2>
+      <p>Each review includes a short entropy checklist:</p>
+      <ul>
+        <li><strong>Tacit exceptions</strong> — Have new “special cases” appeared without documentation?</li>
+        <li><strong>Definition fork</strong> — Do two teams use the same term with different meanings?</li>
+        <li><strong>Surface drift</strong> — Do public or client-facing interfaces contradict the authoritative text?</li>
+        <li><strong>Ownership vacuum</strong> — Is any artifact without a named steward?</li>
+      </ul>
+      <p>Findings are recorded; material findings trigger a version bump or an exception process.</p>
+
+      <h2 id="versioning">7. Versioning and change control</h2>
+      <p>Use semantic clarity, not vanity numbering.</p>
+      <ul>
+        <li><strong>Major</strong> — scope, roles, or acceptance criteria change in a way that alters obligations.</li>
+        <li><strong>Minor</strong> — clarifications that do not change obligations but reduce ambiguity.</li>
+        <li><strong>Patch</strong> — typographical fixes, link repairs, or non-semantic corrections.</li>
+      </ul>
+      <p>Each release has: version number, date, author, summary, and link to diff or change log.</p>
+
+      <h2 id="mapping">8. Mapping the three layers to this template</h2>
+      <ul>
+        <li><strong>Architecture of Constancy</strong> — Sections 1–4 and 7: what stays formally stable across time.</li>
+        <li><strong>Anti-Entropy Protocol</strong> — Sections 5–6: how the organization resists unnecessary drift.</li>
+        <li><strong>Zero-Season Algorithm</strong> — Section 5: how review timing is tied to validity, not spectacle.</li>
+      </ul>
+
+      <h2 id="example">9. Worked example (illustrative, non-prescriptive)</h2>
+      <p><strong>Title:</strong> Evergreen Protocol for Public Definition of “Customer Record”</p>
+      <ul>
+        <li><strong>Scope:</strong> Defines fields and meanings for “Customer Record” used in customer-facing dashboards; excludes legal contracts and billing tax logic.</li>
+        <li><strong>Roles:</strong> Maintainer = data governance lead; Approver = head of product; Evidence steward = analytics engineer.</li>
+        <li><strong>Artifacts:</strong> Definition register (table), dashboard lineage doc, sample dashboard with owner footer.</li>
+        <li><strong>Acceptance:</strong> No dashboard ships without mapping each displayed metric to a register row ID.</li>
+        <li><strong>Review cadence:</strong> Annual baseline; event-triggered on warehouse migration or metric rename.</li>
+        <li><strong>Entropy checks:</strong> Search for duplicate metric names; verify owner footers; scan for undocumented calculated fields.</li>
+      </ul>
+      <div class="note">
+        <p><strong>Note.</strong> This example demonstrates shape, not sector doctrine. Replace entities, fields, and roles to fit your environment. The requirement is structural completeness, not domain specificity.</p>
+      </div>
+
+      <h2 id="vocabulary">10. Controlled vocabulary</h2>
+      <p>Terms used here are defined in <a class="inline" href="definitions.html">Definitions</a>. Protocol authors must not redefine those terms locally without explicit exception.</p>
+    </div>
+  </main>
+  <footer class="site">
+    <div class="inner">evergreenprotocol.com — <a class="inline" href="index.html">Home</a></div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manifesto — Evergreen Protocol</title>
+  <meta name="description" content="A concise statement of why explicit protocols are required for institutional continuity—and why continuity must not be confused with rigidity or spectacle.">
+  <style>
+    :root {
+      --bg: #faf9f7;
+      --fg: #1a1a1a;
+      --muted: #4a4a4a;
+      --line: #d8d4cd;
+      --accent: #1e3a2f;
+      --maxw: 42rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--fg);
+      background: var(--bg);
+    }
+    header.site {
+      border-bottom: 1px solid var(--line);
+      padding: 1.25rem 1.5rem;
+      background: #fff;
+    }
+    .inner { max-width: var(--maxw); margin: 0 auto; }
+    nav.primary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      align-items: baseline;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      font-size: 0.9rem;
+    }
+    nav.primary a { color: var(--accent); text-decoration: none; }
+    nav.primary a:hover { text-decoration: underline; }
+    nav.primary .brand { font-weight: 600; color: var(--fg); margin-right: auto; }
+    main { padding: 2.5rem 1.5rem 4rem; }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin: 0 0 1rem;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 2rem 0 0.65rem;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    }
+    p { margin: 0 0 1rem; color: var(--fg); }
+    .lede { font-size: 1.1rem; color: var(--muted); }
+    ol.manifesto {
+      margin: 1.5rem 0 1rem;
+      padding: 0 0 0 1.25rem;
+    }
+    ol.manifesto li { margin-bottom: 1.1rem; }
+    footer.site {
+      border-top: 1px solid var(--line);
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    }
+    a.inline { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header class="site">
+    <div class="inner">
+      <nav class="primary" aria-label="Primary">
+        <a class="brand" href="index.html">evergreenprotocol.com</a>
+        <a href="manifesto.html" aria-current="page">Manifesto</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="definitions.html">Definitions</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="inner">
+      <h1>Manifesto</h1>
+      <p class="lede">Continuity is not a mood. It is an operational property. When continuity is treated as slogans, slide decks, or implicit habit, organizations pay in ambiguity, rework, and slow loss of trust. Evergreen Protocol exists to make continuity explicit enough to be maintained.</p>
+
+      <h2>Propositions</h2>
+      <ol class="manifesto">
+        <li><strong>Continuity is not rigidity.</strong> A system can remain valid while changing. What must remain stable are the rules for how change is proposed, evidenced, approved, and reviewed—not the illusion that nothing may move.</li>
+        <li><strong>Implicit knowledge is a liability at scale.</strong> What only a few people “know how to do” is not an asset; it is a single point of failure. Protocols do not eliminate craft; they make craft transferable without corrupting it into folklore.</li>
+        <li><strong>Entropy is normal; unnecessary entropy is a choice.</strong> Interfaces age, vendors shift, teams rotate, and assumptions decay. Some drift is inevitable. Much drift is the product of unclear ownership, undocumented exceptions, and unexamined shortcuts. The <em>Anti-Entropy Protocol</em> stance is simple: name drift, bound it, and review it on purpose.</li>
+        <li><strong>A protocol without scope is a story.</strong> If everything is governed, nothing is governed. Evergreen Protocols begin with boundaries: what is in, what is out, and what requires a different instrument (contract, law, standard, product roadmap).</li>
+        <li><strong>Review is a sign of maturity, not failure.</strong> The <em>Zero-Season Algorithm</em> is not anti-time; it is anti-arbitrary timing. Reviews should track validity, risk, and dependency change—not marketing seasons, panic cycles, or competitor anxiety.</li>
+        <li><strong>Authority comes from auditability, not volume.</strong> Long documents that cannot be tested against evidence do not create sovereignty. Short charters that map to artifacts, checks, and owners do.</li>
+        <li><strong>Digital surfaces are continuity objects.</strong> A website, API, dataset, or internal tool is not separate from governance; it is where policy becomes experience. Evergreen Protocol treats these surfaces as governed artifacts with owners and review hooks.</li>
+        <li><strong>This reference refuses spectacle.</strong> The goal is not to sound futuristic. The goal is to be usable in a board packet, an audit trail, or an internal standards library—years after publication.</li>
+      </ol>
+
+      <h2>Operational translation</h2>
+      <p>Each proposition above maps to concrete sections in the <a class="inline" href="methodology.html">Methodology</a>: charter, roles, artifacts, acceptance criteria, review cadence, entropy checks, and versioned change. The manifesto states <em>why</em>; the methodology states <em>how</em>.</p>
+
+      <h2>Humility clause</h2>
+      <p>No protocol eliminates judgment. Protocols discipline judgment: they make its exercise visible, contestable, and improvable. Where judgment must remain, Evergreen Protocol requires that the fact of judgment be explicit—who decides, on what evidence, and when that decision is revisited.</p>
+    </div>
+  </main>
+  <footer class="site">
+    <div class="inner">evergreenprotocol.com — <a class="inline" href="index.html">Home</a></div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Definitions — Evergreen Protocol</title>
+  <meta name="description" content="Controlled vocabulary for evergreenprotocol.com: Evergreen Protocol, scope boundary, artifacts, review cadence, entropy drift, versioning, and related terms.">
+  <style>
+    :root {
+      --bg: #faf9f7;
+      --fg: #1a1a1a;
+      --muted: #4a4a4a;
+      --line: #d8d4cd;
+      --accent: #1e3a2f;
+      --maxw: 42rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--fg);
+      background: var(--bg);
+    }
+    header.site {
+      border-bottom: 1px solid var(--line);
+      padding: 1.25rem 1.5rem;
+      background: #fff;
+    }
+    .inner { max-width: var(--maxw); margin: 0 auto; }
+    nav.primary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      align-items: baseline;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      font-size: 0.9rem;
+    }
+    nav.primary a { color: var(--accent); text-decoration: none; }
+    nav.primary a:hover { text-decoration: underline; }
+    nav.primary .brand { font-weight: 600; color: var(--fg); margin-right: auto; }
+    main { padding: 2.5rem 1.5rem 4rem; }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin: 0 0 1rem;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 2rem 0 0.75rem;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    }
+    dl { margin: 0; }
+    dt {
+      font-weight: 600;
+      margin-top: 1.25rem;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      font-size: 0.98rem;
+    }
+    dt:first-child { margin-top: 0; }
+    dd {
+      margin: 0.35rem 0 0;
+      color: var(--fg);
+    }
+    .muted { color: var(--muted); font-size: 0.95rem; }
+    footer.site {
+      border-top: 1px solid var(--line);
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    }
+    a.inline { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header class="site">
+    <div class="inner">
+      <nav class="primary" aria-label="Primary">
+        <a class="brand" href="index.html">evergreenprotocol.com</a>
+        <a href="manifesto.html">Manifesto</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="definitions.html" aria-current="page">Definitions</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="inner">
+      <h1>Definitions</h1>
+      <p class="muted">This glossary governs terminology on evergreenprotocol.com. Unless an Evergreen Protocol document explicitly defines a local override, these meanings apply.</p>
+
+      <h2>Core terms</h2>
+      <dl>
+        <dt>Evergreen Protocol</dt>
+        <dd>A documented unit of governance with bounded scope, named roles, listed artifacts, acceptance criteria, and a defined review and versioning regime. It is a pattern for maintaining validity across time—not a claim about any specific technology or product category.</dd>
+
+        <dt>Architecture of Constancy</dt>
+        <dd>The structural layer of this reference: the formal elements (charter, roles, artifacts, acceptance criteria, change control) that give continuity a stable shape. It defines what may be built and audited.</dd>
+
+        <dt>Anti-Entropy Protocol</dt>
+        <dd>The philosophical stance that unnecessary entropy—drift in definitions, tacit exceptions, ambiguous ownership, and decaying surfaces—is a manageable risk when made visible and reviewed. It justifies why explicit protocols exist.</dd>
+
+        <dt>Zero-Season Algorithm</dt>
+        <dd>The symbolic and operational commitment to tie reviews to validity and dependency change rather than to fashion cycles, arbitrary quarterly reinvention, or competitive panic. Expressed concretely as review cadence and entropy checks in the <a class="inline" href="methodology.html">Methodology</a>.</dd>
+
+        <dt>Scope boundary</dt>
+        <dd>The explicit statement of what a protocol governs and what it does not govern. Out-of-scope items should point to the responsible instrument (another protocol, contract, legal process, technical standard).</dd>
+
+        <dt>Artifact</dt>
+        <dd>Any object used as evidence of compliance or as an operational interface to the protocol: documents, registers, URLs, schemas, dashboards, logs, or system screens. If it cannot be located, it is not yet an artifact.</dd>
+
+        <dt>Acceptance criterion</dt>
+        <dd>A testable condition that distinguishes compliant operation from non-compliance. Criteria should be observable and attributable to an owner.</dd>
+
+        <dt>Review cadence</dt>
+        <dd>The scheduled and event-triggered timetable for revisiting a protocol’s truth: whether it still matches reality, whether artifacts align, and whether exceptions remain justified.</dd>
+
+        <dt>Entropy check</dt>
+        <dd>A structured examination during review for common drift modes: tacit exceptions, definition forks, surface drift, and ownership vacuums.</dd>
+
+        <dt>Entropy drift</dt>
+        <dd>The accumulation of undocumented divergence between authoritative protocol text, operational practice, and external-facing surfaces or data definitions.</dd>
+
+        <dt>Maintainer</dt>
+        <dd>The role responsible for keeping protocol text coherent, scheduling reviews, and maintaining the change log. Maintainers propose changes; they do not unilaterally alter obligations without approver action unless explicitly delegated.</dd>
+
+        <dt>Approver</dt>
+        <dd>The role authorized to approve material changes and time-bounded exceptions. Approvers bear accountability for scope and risk tradeoffs.</dd>
+
+        <dt>Evidence steward</dt>
+        <dd>The role accountable for artifact integrity: availability, accuracy, and traceability to the protocol version they support.</dd>
+
+        <dt>Consumer (of a protocol)</dt>
+        <dd>Any person or team obligated to operate under the protocol. Consumers are entitled to clarity, stable interfaces for change, and notice when obligations shift.</dd>
+
+        <dt>Exception</dt>
+        <dd>A documented, time-bounded deviation from a protocol requirement. Exceptions must state rationale, owner, expiry, and review trigger. Silent exceptions are defects, not informal flexibility.</dd>
+
+        <dt>Versioned change</dt>
+        <dd>A protocol update recorded with version number, date, author, summary, and accessible history (diff or change log). Semantic rules for major, minor, and patch are defined in the <a class="inline" href="methodology.html">Methodology</a>.</dd>
+
+        <dt>Validity</dt>
+        <dd>The degree to which operational reality matches the protocol’s claims and artifacts. Validity is maintained by review, not by assertion.</dd>
+
+        <dt>Reference layer</dt>
+        <dd>A site or document set intended to be cited, audited, and reused across contexts. This property imposes obligations: stable URLs where possible, explicit updates, and definitional discipline.</dd>
+      </dl>
+
+      <h2>Non-definitions (common misreadings)</h2>
+      <dl>
+        <dt>Protocol (general English)</dt>
+        <dd>In ordinary speech, “protocol” may mean etiquette or a technical handshake. On this site, unless explicitly qualified, “protocol” means a governed Evergreen Protocol as defined above.</dd>
+
+        <dt>Evergreen (finance or horticulture)</dt>
+        <dd>Other fields use “evergreen” for contracts or plants. This reference uses “evergreen” only to denote continuity-with-review, not a particular financial instrument or biological metaphor.</dd>
+      </dl>
+    </div>
+  </main>
+  <footer class="site">
+    <div class="inner">evergreenprotocol.com — <a class="inline" href="index.html">Home</a></div>
+  </footer>
+</body>
+</html>
