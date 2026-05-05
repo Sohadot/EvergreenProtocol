@@ -648,6 +648,114 @@ a.inline:focus-visible {
   margin-top: var(--space-lg);
 }
 
+@media (max-width: 720px) {
+  :root {
+    --step-1: clamp(1.52rem, 5.8vw + 0.45rem, 2rem);
+    --step-2: 1.12rem;
+    --space-xl: 2.15rem;
+  }
+
+  body {
+    background-image:
+      linear-gradient(rgba(26, 61, 48, 0.019) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26, 61, 48, 0.019) 1px, transparent 1px);
+    background-size: 2rem 2rem;
+  }
+
+  header.site {
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  main {
+    padding: var(--space-lg) var(--space-md) 3rem;
+  }
+
+  .site-brand-row {
+    gap: var(--space-xs) var(--space-sm);
+    font-size: 0.875rem;
+  }
+
+  .site-brand-row .site-purpose {
+    min-width: 0;
+    flex: 1 1 100%;
+  }
+
+  nav.primary {
+    row-gap: 0.25rem;
+    column-gap: 0.35rem;
+    font-size: 0.875rem;
+  }
+
+  nav.primary .brand {
+    flex: 1 1 100%;
+    margin-right: 0;
+    margin-bottom: 0.35rem;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 0.45rem;
+  }
+
+  nav.primary a:not(.brand) {
+    min-height: 44px;
+    padding: 0.35rem 0.45rem;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .doc-meta-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-sm);
+  }
+
+  .doc-meta-row span {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    line-height: 1.55;
+  }
+
+  .doc-summary {
+    font-size: 1.06rem;
+  }
+
+  .layer-stack {
+    gap: var(--space-sm);
+  }
+
+  .layer-card,
+  .next-read,
+  details.depth-toggle {
+    min-width: 0;
+  }
+
+  code {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  dt,
+  dd {
+    overflow-wrap: anywhere;
+  }
+
+  .toc {
+    position: static;
+    margin-bottom: var(--space-md);
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+  }
+
+  a.inline {
+    padding: 0.12rem 0;
+    overflow-wrap: anywhere;
+  }
+}
+
 @media print {
   header.site {
     position: static;
