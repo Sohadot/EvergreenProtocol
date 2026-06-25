@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "pinned": true,
+  "protocolName": "Evergreen Protocol",
+  "version": "1.0",
+  "status": "active",
+  "publicationDate": "2026-06-25",
+  "lastUpdated": "2026-06-25",
+  "nextReview": "2027-06-25",
+  "categoryStatement": "Reference continuity governance — the discipline of maintaining the validity, version integrity, citeability, and operational coherence of institutional reference systems under accelerated change.",
+  "governedDomains": [
+    "Reference integrity",
+    "Version discipline",
+    "Evidence posture",
+    "Review governance",
+    "Definition control",
+    "Continuity under change"
+  ],
+  "nonClaims": [
+    "Not a compliance certification or external audit scheme",
+    "Not an information security or risk management framework",
+    "Not a regulatory compliance or legal governance framework",
+    "Not a knowledge management system or tooling specification",
+    "Not an AI model evaluation or safety standard",
+    "Not a sector-specific playbook"
+  ],
+  "citation": {
+    "shortForm": "Evergreen Protocol v1.0 (2026)",
+    "canonicalUrl": "https://evergreenprotocol.com/en/category-standard/",
+    "machineReadableUrl": "https://evergreenprotocol.com/en/protocol/v1/standard.json",
+    "citationGuidance": "https://evergreenprotocol.com/en/cite/",
+    "citationJson": "https://evergreenprotocol.com/en/protocol/v1/citation.json"
+  },
+  "canonicalUrls": {
+    "homepage": "https://evergreenprotocol.com/en/",
+    "categoryStandard": "https://evergreenprotocol.com/en/category-standard/",
+    "definitions": "https://evergreenprotocol.com/en/definitions/",
+    "definitionsJson": "https://evergreenprotocol.com/en/definitions.json",
+    "cite": "https://evergreenprotocol.com/en/cite/",
+    "changelog": "https://evergreenprotocol.com/en/changelog/",
+    "machineReadable": "https://evergreenprotocol.com/en/machine-readable/"
+  },
+  "versionedFiles": {
+    "standard": "https://evergreenprotocol.com/en/protocol/v1/standard.json",
+    "definitions": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+    "citation": "https://evergreenprotocol.com/en/protocol/v1/citation.json"
+  },
+  "governanceNote": "This file is version-pinned to Evergreen Protocol v1.0. It will not be modified after publication. Future standard versions will be published at new paths.",
+  "usageNotice": "Static versioned reference. Not a certification, compliance verdict, live API endpoint, or MCP service."
+}

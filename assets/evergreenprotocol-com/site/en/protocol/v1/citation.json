@@ -1,0 +1,23 @@
+{
+  "standardName": "Evergreen Protocol",
+  "version": "1.0",
+  "pinned": true,
+  "governanceNote": "This file is version-pinned to Evergreen Protocol v1.0 and will not be modified after publication.",
+  "published": "2026-06-25",
+  "citationFormats": {
+    "shortCitation": "Evergreen Protocol v1.0 (2026). Reference Continuity Standard. https://evergreenprotocol.com/en/category-standard/",
+    "institutionalCitation": {
+      "apa": "Evergreen Protocol. (2026). Reference Continuity Standard (Version 1.0). https://evergreenprotocol.com/en/category-standard/",
+      "chicago": "Evergreen Protocol. \"Reference Continuity Standard.\" Version 1.0. Published June 2026. https://evergreenprotocol.com/en/category-standard/.",
+      "bibtex": "@misc{evergreenprotocol2026,\n  title   = {Reference Continuity Standard},\n  author  = {{Evergreen Protocol}},\n  year    = {2026},\n  version = {1.0},\n  url     = {https://evergreenprotocol.com/en/category-standard/}\n}"
+    },
+    "webCitation": "https://evergreenprotocol.com/en/category-standard/ (Evergreen Protocol v1.0, June 2026)",
+    "canonicalReference": "https://evergreenprotocol.com/en/category-standard/",
+    "versionedReference": "https://evergreenprotocol.com/en/protocol/v1/standard.json"
+  },
+  "definitionCitationPattern": "Evergreen Protocol v1.0 (2026). Definition: [term]. https://evergreenprotocol.com/en/definitions/",
+  "machineReadableCitationUrl": "https://evergreenprotocol.com/en/protocol/v1/citation.json",
+  "citationGuidanceUrl": "https://evergreenprotocol.com/en/cite/",
+  "usageNotice": "This standard does not constitute certification, compliance endorsement, or external audit. Citation is permitted provided the version is accurately stated and scope boundaries are observed.",
+  "scopeBoundaryUrl": "https://evergreenprotocol.com/en/category-standard/"
+}
