@@ -37,6 +37,11 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 | `site/reference-continuity-readiness/index.html` | Practical readiness entry point — self-orientation guide for institutional readers. |
 | `site/strategic-operating-partnership/index.html` | Controlled commercial-readiness surface for qualified operating, licensing, and post-traction acquisition discussions. |
 | `site/operator-brief/index.html` | Operator Brief — commercial-readiness narrative layer for qualified enterprise operators; not a pricing, partner application, certification, or acquisition page. |
+| `site/reference-cases/index.html` | Self-Applied Reference Cases hub — proof-of-application layer showing protocol use within Sohadot-governed assets; not a registry, compliance surface, certification, or external assessment. |
+| `site/reference-cases/bisulfid-reference-atlas-continuity/index.html` | Bisulfid — self-applied reference case; reference atlas continuity. |
+| `site/reference-cases/euraplan-regulatory-reference-continuity/index.html` | EuraPlan — self-applied reference case; regulatory reference continuity (multi-country). |
+| `site/reference-cases/aielectronicchips-dependency-reference-continuity/index.html` | AIElectronicChips — self-applied reference case; dependency reference continuity (compute/chip). |
+| `site/reference-cases/outmerchant-standard-continuity/index.html` | Outmerchant — self-applied reference case; standard and diagnostic continuity (commerce evaluation). |
 | `site/definitions.json` | Public canonical definitions index for governed terms. |
 | `site/protocol/v1/definitions.json` | Version-pinned definitions for Evergreen Protocol v1.0. |
 | `site/protocol/v1/standard.json` | Version-pinned machine-readable summary of Evergreen Protocol Standard v1.0. |
@@ -71,6 +76,18 @@ The application layer is a public reference layer, not an assessment surface:
 - `/applications/strategic-digital-asset-continuity/` applies the standard to strategic digital assets and reference-grade public properties.
 
 Reference applications demonstrate protocol applicability without opening a registry, checklist, tool, calculated-output workflow, third-party evaluation workflow, certification system, dynamic backend, or external submission path.
+
+### Self-applied reference cases layer
+
+The self-applied reference cases layer is a proof-of-application surface, not a certification or assessment surface:
+
+- `/reference-cases/` is the controlled hub.
+- `/reference-cases/bisulfid-reference-atlas-continuity/` demonstrates reference atlas continuity principles within a Sohadot-governed asset.
+- `/reference-cases/euraplan-regulatory-reference-continuity/` demonstrates regulatory reference continuity (multi-country) within a Sohadot-governed asset.
+- `/reference-cases/aielectronicchips-dependency-reference-continuity/` demonstrates dependency reference continuity (compute/chip) within a Sohadot-governed asset.
+- `/reference-cases/outmerchant-standard-continuity/` demonstrates standard and diagnostic continuity (commerce evaluation) within a Sohadot-governed asset.
+
+Self-applied reference cases demonstrate protocol use within the Sohadot portfolio. They do not certify assets, rank systems, approve third parties, or create compliance status. No external party is assessed, registered, or validated.
 
 ## Conceptual layers (narrative hierarchy)
 

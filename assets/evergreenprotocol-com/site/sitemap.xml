@@ -108,6 +108,36 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://evergreenprotocol.com/reference-cases/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://evergreenprotocol.com/reference-cases/bisulfid-reference-atlas-continuity/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evergreenprotocol.com/reference-cases/euraplan-regulatory-reference-continuity/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evergreenprotocol.com/reference-cases/aielectronicchips-dependency-reference-continuity/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evergreenprotocol.com/reference-cases/outmerchant-standard-continuity/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
 <!-- JSON reference files (/definitions.json, /protocol/v1/*.json, and localized /en/*.json)
      are excluded from this sitemap as non-HTML resources. They are documented at /machine-readable/ -->

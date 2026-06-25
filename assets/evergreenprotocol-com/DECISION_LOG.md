@@ -6,6 +6,51 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 ---
 
+## 2026-06-25 — Self-applied reference cases layer
+
+**Decision:** Evergreen Protocol now includes a controlled self-applied reference cases layer to demonstrate protocol use within Sohadot-governed assets without creating certification, registry, scoring, external validation, or compliance status.
+
+**Rationale:** A category standard gains institutional legibility when proof-of-application is visible, not merely claimed. Self-applied reference cases show how Evergreen Protocol's continuity principles apply to governed assets within the Sohadot portfolio, demonstrating scope, discipline, and governance without inviting external submissions, issuing compliance status, opening a registry, or creating any derivative certification behavior.
+
+**Scope of this decision:**
+
+Public routes:
+- `/reference-cases/`
+- `/reference-cases/bisulfid-reference-atlas-continuity/`
+- `/reference-cases/euraplan-regulatory-reference-continuity/`
+- `/reference-cases/aielectronicchips-dependency-reference-continuity/`
+- `/reference-cases/outmerchant-standard-continuity/`
+
+Internal links from:
+- Homepage (`/en/`) → `/reference-cases/`
+- `/applications/` → `/reference-cases/`
+- `/operator-brief/` → `/reference-cases/`
+- `/strategic-operating-partnership/` → `/reference-cases/`
+
+JSON-LD schema: WebPage and CreativeWork only.
+
+Sitemap: all five `/reference-cases/` routes added.
+
+Architecture: five reference-cases rows added to IA table; self-applied reference cases layer section added; noted as not a registry, compliance surface, certification, or external assessment.
+
+**Explicit non-decisions (ruled out by this decision):**
+- No registry opened.
+- No certification created.
+- No compliance status issued.
+- No score or rating produced.
+- No external party assessed or validated.
+- No submission system created.
+- No dynamic backend created.
+- No third-party endorsement or market recognition claim made.
+- No partner or affiliate claim created.
+
+**Authority:** Standard owner — evergreenprotocol.com
+**Sprint:** Sprint 8 — Self-Applied Reference Cases Layer
+**Related:** `architecture.md` information architecture table; `domain-dossier.md` Sprint 8 update log entry
+
+
+---
+
 ## 2026-06-25 — Operator brief layer
 
 **Decision:** Evergreen Protocol now includes an operator brief to make the asset legible to qualified enterprise operators while preserving governance boundaries and avoiding certification, registry, pricing, or acquisition-promise behavior.

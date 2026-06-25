@@ -793,7 +793,7 @@ complete Sprint 2 review and prepare Sprint 3 proof-of-application planning with
 
 Why This Is the Correct Next Action
 
-Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. Sprint 3 is complete: reference applications opened to demonstrate protocol applicability without certification or registry behavior. Sprint 4 is complete: the readiness layer opened as a self-orientation guide, not as certification, scoring, compliance, or external assessment. Sprint 5 is complete: operating-partner legibility established; asset remains positioned, not yet commercially validated. Sprint 6 is complete: operator brief activated to support qualified enterprise operator legibility; asset remains positioned pending external traction. The category is declared, machine-readable, demonstrated across bounded application domains, practically legible, commercially readable under controlled boundaries, and now legible to qualified institutional operators through a governed concise brief.
+Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. Sprint 3 is complete: reference applications opened to demonstrate protocol applicability without certification or registry behavior. Sprint 4 is complete: the readiness layer opened as a self-orientation guide, not as certification, scoring, compliance, or external assessment. Sprint 5 is complete: operating-partner legibility established; asset remains positioned, not yet commercially validated. Sprint 6 is complete: operator brief activated to support qualified enterprise operator legibility; asset remains positioned pending external traction. Sprint 8 is complete: proof-of-application strengthened through self-applied reference cases within Sohadot-governed assets; asset remains positioned pending external traction. The category is declared, machine-readable, demonstrated across bounded application domains, practically legible, commercially readable under controlled boundaries, legible to qualified institutional operators through a governed concise brief, and strengthened through self-applied proof-of-application cases.
 
 
 ---
@@ -875,6 +875,17 @@ Change Type: commercial-readiness narrative layer
 Summary: Opened `/operator-brief/` as a concise institutional brief for qualified enterprise operators in AI governance, GRC, enterprise knowledge governance, digital preservation, records management, and institutional advisory. Linked from homepage and `/strategic-operating-partnership/`. Updated sitemap, architecture, and governance records.
 
 Strategic Meaning: Operator brief added to support qualified strategic operating discussions; asset remains positioned pending external traction. The brief makes Evergreen Protocol legible as a governed category asset to institutional operators without creating pricing, a form, a partner application, a certification program, a registry, or an acquisition promise.
+
+
+Sprint 8 — Self-Applied Reference Cases Layer
+
+Date: 2026-06-25
+
+Change Type: proof-of-application layer
+
+Summary: Opened `/reference-cases/` hub and four self-applied reference case pages: Bisulfid (reference atlas continuity), EuraPlan (regulatory reference continuity), AIElectronicChips (dependency reference continuity), and Outmerchant (standard and diagnostic continuity). Linked from homepage, `/applications/`, `/operator-brief/`, and `/strategic-operating-partnership/`. Updated sitemap, architecture, and governance records.
+
+Strategic Meaning: Proof-of-application strengthened through self-applied cases; asset remains positioned pending external traction. The reference cases layer demonstrates protocol use within Sohadot-governed assets without creating certification, registry, scoring, external validation, or compliance status.
 
 
 ---
