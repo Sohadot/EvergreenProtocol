@@ -38,3 +38,33 @@ Human-readable index: `/machine-readable/`
 **Authority:** Standard owner — evergreenprotocol.com
 **Sprint:** Sprint 2 — Versioned Machine-Readable Reference Layer
 **Related:** `architecture.md` machine-readable layer section
+
+
+---
+
+## 2026-06-25 — Controlled reference application layer
+
+**Decision:** Evergreen Protocol now exposes a controlled reference application layer to demonstrate applicability across AI documentation, knowledge systems, digital infrastructure, and strategic digital assets while preserving non-certification boundaries.
+
+**Rationale:** A category standard becomes more legible when readers can see how its concepts apply to real continuity problems. The application layer demonstrates reference decay, evidence posture, version discipline, citation stability, and update governance without assessing outside parties or creating registry behavior.
+
+**Scope of this decision:**
+
+Public application routes:
+- `/applications/`
+- `/applications/ai-documentation-continuity/`
+- `/applications/knowledge-system-continuity/`
+- `/applications/digital-infrastructure-continuity/`
+- `/applications/strategic-digital-asset-continuity/`
+
+**Explicit non-decisions (ruled out by this decision):**
+- No registry opened.
+- No third-party assessment workflow created.
+- No checklist, tool, score, or readiness endpoint created.
+- No dynamic backend created.
+- No external company assessment created.
+- No certification, validation, verification, endorsement, or external recognition created.
+
+**Authority:** Standard owner — evergreenprotocol.com
+**Sprint:** Sprint 3 — Reference Application Layer v1
+**Related:** `architecture.md` reference application layer section

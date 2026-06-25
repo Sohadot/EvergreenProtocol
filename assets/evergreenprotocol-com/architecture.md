@@ -32,6 +32,8 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 | `site/en/cite/index.html` | Citation guidance — plain text, APA, Chicago, BibTeX, and AI-system formats. |
 | `site/en/changelog/index.html` | Version governance — self-applied change record, review cadence, and governance rules. |
 | `site/machine-readable/index.html` | Machine-readable reference index — human-readable explanation of static JSON files, citation use, and exclusions. |
+| `site/applications/index.html` | Reference applications hub — controlled public application layer. |
+| `site/applications/*/index.html` | Application pages for AI documentation, knowledge systems, digital infrastructure, and strategic digital assets. |
 | `site/definitions.json` | Public canonical definitions index for governed terms. |
 | `site/protocol/v1/definitions.json` | Version-pinned definitions for Evergreen Protocol v1.0. |
 | `site/protocol/v1/standard.json` | Version-pinned machine-readable summary of Evergreen Protocol Standard v1.0. |
@@ -39,7 +41,7 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 
 Localized English JSON mirrors may exist under `site/en/` for continuity with existing English pages, but root static JSON paths are the canonical machine-readable references.
 
-Further applications (Reference Application Registry, Evergreen Readiness Checklist), dynamic API surfaces, MCP-compatible endpoints, external submission systems, and additional locales are excluded until gated.
+Further registry behavior, readiness checklist, dynamic API surfaces, MCP-compatible endpoints, operator partnership surfaces, external submission systems, and additional locales are excluded until gated.
 
 ### Machine-readable layer
 
@@ -54,6 +56,18 @@ The machine-readable layer is static-first:
 Files under `/protocol/v1/` must not be silently overwritten after publication. Future versions must publish at new versioned paths such as `/protocol/v1.1/` or `/protocol/v2/`.
 
 The MCP-compatible layer remains future-gated. No MCP endpoint, dynamic backend, scoring engine, compliance registry, readiness checklist, or certification system is opened by this architecture.
+
+### Reference application layer
+
+The application layer is a public reference layer, not an assessment surface:
+
+- `/applications/` is the controlled hub.
+- `/applications/ai-documentation-continuity/` applies the standard to AI documentation and evidence traces.
+- `/applications/knowledge-system-continuity/` applies the standard to institutional knowledge systems.
+- `/applications/digital-infrastructure-continuity/` applies the standard to infrastructure documentation and dependency references.
+- `/applications/strategic-digital-asset-continuity/` applies the standard to strategic digital assets and reference-grade public properties.
+
+Reference applications demonstrate protocol applicability without opening a registry, checklist, tool, score, third-party assessment workflow, certification system, dynamic backend, or external submission path.
 
 ## Conceptual layers (narrative hierarchy)
 

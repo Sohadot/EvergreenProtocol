@@ -793,7 +793,7 @@ complete Sprint 2 review and prepare Sprint 3 proof-of-application planning with
 
 Why This Is the Correct Next Action
 
-Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. This improves AI-consumability and institutional legibility while preserving a static-first posture. Sprint 3 proof-of-application pages (Bisulfid.com, EuraPlan.com, AIElectronicChips.com, Outmerchant.com) may later demonstrate the standard's governance against real reference cases. The category is declared and machine-readable; it remains positioned, not matured beyond that stage.
+Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. Sprint 3 is complete: reference applications opened to demonstrate protocol applicability without certification or registry behavior. The category is declared, machine-readable, and demonstrated across bounded application domains; it remains positioned, not matured beyond that stage.
 
 
 ---
@@ -831,6 +831,17 @@ Change Type: static reference layer
 Summary: Added root canonical static JSON reference files, version-pinned v1 files, and a human-readable `/machine-readable/` index. Public core pages link to the machine-readable layer, and the sitemap documents that JSON files are excluded as non-HTML resources.
 
 Strategic Meaning: The machine-readable reference structure improves AI-consumability and institutional legibility while avoiding a dynamic API, MCP endpoint, certification system, compliance registry, readiness checklist, or external submission system. Asset maturity remains positioned.
+
+
+Sprint 3 — Reference Application Layer v1
+
+Date: 2026-06-25
+
+Change Type: proof of application layer
+
+Summary: Opened `/applications/` and four controlled reference application pages: AI documentation continuity, knowledge system continuity, digital infrastructure continuity, and strategic digital asset continuity.
+
+Strategic Meaning: Reference applications opened to demonstrate protocol applicability without certification or registry behavior. The layer improves institutional readability by showing how continuity risk, reference decay, evidence posture, version discipline, and citation stability apply across concrete domains. Asset maturity remains positioned.
 
 
 ---

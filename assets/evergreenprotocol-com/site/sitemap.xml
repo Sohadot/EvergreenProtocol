@@ -55,6 +55,36 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://evergreenprotocol.com/applications/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://evergreenprotocol.com/applications/ai-documentation-continuity/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evergreenprotocol.com/applications/knowledge-system-continuity/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evergreenprotocol.com/applications/digital-infrastructure-continuity/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://evergreenprotocol.com/applications/strategic-digital-asset-continuity/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://evergreenprotocol.com/en/machine-readable/</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>yearly</changefreq>
