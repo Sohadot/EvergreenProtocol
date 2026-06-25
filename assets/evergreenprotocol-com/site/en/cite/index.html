@@ -18,7 +18,7 @@
   <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="../../assets/css/main.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebPage","name":"How to Cite — Evergreen Protocol","description":"Citation formats, version referencing, and definition citation guidance for Evergreen Protocol v1.0.","url":"https://evergreenprotocol.com/en/cite/","isPartOf":{"@type":"WebSite","name":"Evergreen Protocol","url":"https://evergreenprotocol.com/"}}
+  {"@context":"https://schema.org","@type":"WebPage","name":"How to Cite — Evergreen Protocol","description":"Citation formats, version referencing, and definition citation guidance for Evergreen Protocol v1.0.","url":"https://evergreenprotocol.com/en/cite/","dateModified":"2026-06-25","about":{"@type":"CreativeWork","name":"Evergreen Protocol","version":"1.0","url":"https://evergreenprotocol.com/en/category-standard/"},"isPartOf":{"@type":"WebSite","name":"Evergreen Protocol","url":"https://evergreenprotocol.com/"}}
   </script>
 </head>
 <body>
@@ -53,22 +53,22 @@
         <h2 id="sec-standard">Citing the standard</h2>
 
         <h3>Plain text</h3>
-        <pre class="code-block"><code>Evergreen Protocol v1.0 (2025). Reference Continuity Standard.
+        <pre class="code-block"><code>Evergreen Protocol v1.0 (2026). Reference Continuity Standard.
 evergreenprotocol.com/en/category-standard/</code></pre>
 
         <h3>APA</h3>
-        <pre class="code-block"><code>Evergreen Protocol. (2025). Reference Continuity Standard (Version 1.0).
+        <pre class="code-block"><code>Evergreen Protocol. (2026). Reference Continuity Standard (Version 1.0).
 https://evergreenprotocol.com/en/category-standard/</code></pre>
 
         <h3>Chicago</h3>
         <pre class="code-block"><code>Evergreen Protocol. "Reference Continuity Standard." Version 1.0.
-Published June 2025. https://evergreenprotocol.com/en/category-standard/.</code></pre>
+Published June 2026. https://evergreenprotocol.com/en/category-standard/.</code></pre>
 
         <h3>BibTeX</h3>
-        <pre class="code-block"><code>@misc{evergreenprotocol2025,
+        <pre class="code-block"><code>@misc{evergreenprotocol2026,
   title   = {Reference Continuity Standard},
   author  = {{Evergreen Protocol}},
-  year    = {2025},
+  year    = {2026},
   version = {1.0},
   url     = {https://evergreenprotocol.com/en/category-standard/}
 }</code></pre>
@@ -77,7 +77,7 @@ Published June 2025. https://evergreenprotocol.com/en/category-standard/.</code>
       <section aria-labelledby="sec-definitions">
         <h2 id="sec-definitions">Citing specific definitions</h2>
         <p>When citing a specific term from the <a class="inline" href="../definitions/">Definitions</a> page, include the term, the standard version, and the URL:</p>
-        <pre class="code-block"><code>Evergreen Protocol v1.0 (2025). Definition: [term name].
+        <pre class="code-block"><code>Evergreen Protocol v1.0 (2026). Definition: [term name].
 evergreenprotocol.com/en/definitions/</code></pre>
         <p>As definitions are versioned, always include the version in force at the time of use.</p>
       </section>
@@ -95,10 +95,13 @@ evergreenprotocol.com/en/definitions/</code></pre>
 
       <section aria-labelledby="sec-ai">
         <h2 id="sec-ai">AI-system and agent citation</h2>
-        <p>For AI agents, RAG systems, and structured data consumers, machine-readable reference is available through the JSON-LD markup on each page. The category standard, definitions, and changelog pages each carry structured data for programmatic reference.</p>
-        <p>For agent-readable versioned definitions, reference:</p>
-        <pre class="code-block"><code>https://evergreenprotocol.com/en/definitions/
-https://evergreenprotocol.com/en/category-standard/</code></pre>
+        <p>For AI agents, RAG systems, and structured data consumers, machine-readable reference is available through static versioned JSON files and the JSON-LD markup on each page.</p>
+        <p>Versioned machine-readable files for programmatic reference:</p>
+        <pre class="code-block"><code>https://evergreenprotocol.com/en/definitions.json
+https://evergreenprotocol.com/en/protocol/v1/standard.json
+https://evergreenprotocol.com/en/protocol/v1/definitions.json
+https://evergreenprotocol.com/en/protocol/v1/citation.json</code></pre>
+        <p>See <a class="inline" href="../machine-readable/">Machine-Readable Reference</a> for the full index and usage guidance.</p>
       </section>
 
       <section aria-labelledby="sec-usage">
@@ -113,6 +116,7 @@ https://evergreenprotocol.com/en/category-standard/</code></pre>
           <li><a class="inline" href="../changelog/">Changelog</a> — version history and current version status.</li>
           <li><a class="inline" href="../category-standard/">Category Standard</a> — scope and boundary declaration.</li>
           <li><a class="inline" href="../definitions/">Definitions</a> — controlled vocabulary for this standard.</li>
+          <li><a class="inline" href="../machine-readable/">Machine-Readable Reference</a> — JSON files for AI agents and institutional systems.</li>
         </ul>
       </nav>
     </article>
