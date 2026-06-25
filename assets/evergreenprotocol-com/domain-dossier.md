@@ -793,7 +793,7 @@ complete Sprint 2 review and prepare Sprint 3 proof-of-application planning with
 
 Why This Is the Correct Next Action
 
-Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. Sprint 3 is complete: reference applications opened to demonstrate protocol applicability without certification or registry behavior. Sprint 4 is complete: the readiness layer opened as a self-orientation guide, not as certification, scoring, compliance, or external assessment. The category is declared, machine-readable, demonstrated across bounded application domains, and practically legible; it remains positioned, not matured beyond that stage.
+Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. Sprint 3 is complete: reference applications opened to demonstrate protocol applicability without certification or registry behavior. Sprint 4 is complete: the readiness layer opened as a self-orientation guide, not as certification, scoring, compliance, or external assessment. Sprint 5 is complete: operating-partner legibility established; asset remains positioned, not yet commercially validated. The category is declared, machine-readable, demonstrated across bounded application domains, practically legible, and commercially readable under controlled boundaries.
 
 
 ---
@@ -853,6 +853,17 @@ Change Type: practical entry-point activation
 Summary: Opened `/reference-continuity-readiness/` as a self-orientation guide covering seven readiness dimensions: version discipline, citation stability, evidence posture, definition control, changelog integrity, update governance, and machine-readable reference structure.
 
 Strategic Meaning: Readiness layer opened as a self-orientation guide, not as certification, scoring, compliance, or external assessment. The layer makes Evergreen Protocol more usable for institutional readers while preserving the positioned maturity stage.
+
+
+Sprint 5 — Strategic Operating Partnership Layer
+
+Date: 2026-06-25
+
+Change Type: strategic operating partnership activation
+
+Summary: Opened `/strategic-operating-partnership/` as a controlled commercial-readiness surface for qualified operating, licensing, and post-traction acquisition discussions under governed boundaries.
+
+Strategic Meaning: Operating-partner legibility established; asset remains positioned, not yet commercially validated. The surface avoids generic sale framing, pricing, payment flow, public partner program behavior, registry behavior, and uncontrolled commercial claims.
 
 
 ---

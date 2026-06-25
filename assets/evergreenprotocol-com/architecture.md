@@ -35,6 +35,7 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 | `site/applications/index.html` | Reference applications hub — controlled public application layer. |
 | `site/applications/*/index.html` | Application pages for AI documentation, knowledge systems, digital infrastructure, and strategic digital assets. |
 | `site/reference-continuity-readiness/index.html` | Practical readiness entry point — self-orientation guide for institutional readers. |
+| `site/strategic-operating-partnership/index.html` | Controlled commercial-readiness surface for qualified operating, licensing, and post-traction acquisition discussions. |
 | `site/definitions.json` | Public canonical definitions index for governed terms. |
 | `site/protocol/v1/definitions.json` | Version-pinned definitions for Evergreen Protocol v1.0. |
 | `site/protocol/v1/standard.json` | Version-pinned machine-readable summary of Evergreen Protocol Standard v1.0. |
@@ -42,7 +43,7 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 
 Localized English JSON mirrors may exist under `site/en/` for continuity with existing English pages, but root static JSON paths are the canonical machine-readable references.
 
-Further registry behavior, readiness checklist, dynamic API surfaces, MCP-compatible endpoints, operator partnership surfaces, external submission systems, and additional locales are excluded until gated.
+Further registry behavior, readiness checklist, dynamic API surfaces, MCP-compatible endpoints, public partner program behavior, external submission systems, and additional locales are excluded until gated.
 
 ### Machine-readable layer
 

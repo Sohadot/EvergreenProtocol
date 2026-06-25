@@ -103,3 +103,39 @@ Covered readiness dimensions:
 **Authority:** Standard owner — evergreenprotocol.com
 **Sprint:** Sprint 4 — Reference Continuity Readiness Entry Point
 **Related:** `architecture.md` reference continuity readiness layer section
+
+
+---
+
+## 2026-06-25 — Strategic operating partnership layer
+
+**Decision:** Evergreen Protocol now exposes a governed strategic operating partnership layer to support qualified operating, licensing, and post-traction acquisition discussions without creating a public sale page, certification program, registry, or uncontrolled commercial claim.
+
+**Rationale:** Evergreen Protocol can become more legible to qualified enterprise operators when the public reference surface explains what may be operated commercially and which boundaries remain controlled. The layer supports serious operating discussions while preserving Sohadot control over the domain, protocol, category standard, and reference integrity.
+
+**Scope of this decision:**
+
+Public route:
+- `/strategic-operating-partnership/`
+
+Permitted discussion areas:
+- Qualified strategic operating partnership
+- Institutional licensing
+- Non-exclusive operating pilot
+- Sector-specific operating rights
+- Reference review delivery partnership
+- Post-traction acquisition discussion
+
+**Explicit non-decisions (ruled out by this decision):**
+- No public sale page created.
+- No pricing or payment flow created.
+- No form submission path created.
+- No registry opened.
+- No certification program created.
+- No partner logos or external endorsements published.
+- No automatic acquisition right granted.
+- No backend or dynamic workflow created.
+
+**Authority:** Standard owner — evergreenprotocol.com
+**Sprint:** Sprint 5 — Strategic Operating Partnership Layer
+**Related:** `architecture.md` strategic operating partnership layer section
