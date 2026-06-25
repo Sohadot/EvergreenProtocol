@@ -23,16 +23,20 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 
 | Path | Purpose |
 |------|---------|
-| `site/en/index.html` | Home — governed continuity thesis and layer overview. |
-| `site/en/manifesto/index.html` | Philosophical obligation and propositions. |
+| `site/en/index.html` | Home — category standard declaration, AI-era continuity thesis, layer overview. |
+| `site/en/category-standard/index.html` | Category Standard v1.0 — reference continuity governance declaration, scope, and boundary. |
+| `site/en/ai-era-digital-continuity/index.html` | AI-Era Digital Continuity — market context, reference decay problem, governance gap. |
+| `site/en/manifesto/index.html` | Philosophical obligation and propositions (Anti-Entropy Protocol layer). |
 | `site/en/methodology/index.html` | Operational template (Architecture of Constancy in practice). |
-| `site/en/definitions/index.html` | Controlled vocabulary for the reference. |
+| `site/en/definitions/index.html` | Controlled vocabulary — category terms and core terms, versioned. |
+| `site/en/cite/index.html` | Citation guidance — plain text, APA, Chicago, BibTeX, and AI-system formats. |
+| `site/en/changelog/index.html` | Version governance — self-applied change record, review cadence, and governance rules. |
 
-Applications, insights, tools, and further locales are excluded until gated.
+Further applications (Reference Application Registry, Evergreen Readiness Checklist), machine-readable API layer (`/definitions.json`, `/protocol/v1/standard.json`), and additional locales are excluded until gated.
 
 ## Conceptual layers (narrative hierarchy)
 
-The dossier’s hierarchy governs content and future expansion:
+The dossier's hierarchy governs content and future expansion:
 
 1. **Structural — Architecture of Constancy:** Formal shape (charter, roles, artifacts, acceptance, versioning). Primary operational anchor for methodology and site structure.
 2. **Philosophical — Anti-Entropy Protocol:** Necessity of explicit protocols against unnecessary drift.
