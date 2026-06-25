@@ -20,7 +20,7 @@
   <meta name="twitter:description" content="Controlled vocabulary: reference continuity, reference decay, layers, artifacts, cadence, entropy, roles, validity.">
   <link rel="stylesheet" href="../../assets/css/main.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"DefinedTermSet","name":"Evergreen Protocol definitions","description":"Controlled vocabulary governing terminology on evergreenprotocol.com.","url":"https://evergreenprotocol.com/en/definitions/","isPartOf":{"@type":"WebSite","name":"Evergreen Protocol","url":"https://evergreenprotocol.com/"},"hasDefinedTerm":[{"@type":"DefinedTerm","name":"Reference continuity","description":"The governance discipline of maintaining the validity, version integrity, citeability, and operational coherence of institutional reference systems under accelerated change.","inDefinedTermSet":"https://evergreenprotocol.com/en/definitions/"},{"@type":"DefinedTerm","name":"Reference decay","description":"The gradual loss of validity, citeability, or operational coherence in a reference system.","inDefinedTermSet":"https://evergreenprotocol.com/en/definitions/"},{"@type":"DefinedTerm","name":"Evergreen Protocol","description":"A documented unit of governance with bounded scope, named roles, listed artifacts, acceptance criteria, and a defined review and versioning regime.","inDefinedTermSet":"https://evergreenprotocol.com/en/definitions/"},{"@type":"DefinedTerm","name":"Category standard","description":"A versioned, citable reference that defines the scope, vocabulary, and explicit boundaries of a specific governance category.","inDefinedTermSet":"https://evergreenprotocol.com/en/definitions/"}]}
+  {"@context":"https://schema.org","@type":"DefinedTermSet","name":"Evergreen Protocol definitions","description":"Controlled vocabulary governing terminology on evergreenprotocol.com.","url":"https://evergreenprotocol.com/en/definitions/","dateModified":"2026-06-25","isPartOf":{"@type":"WebSite","name":"Evergreen Protocol","url":"https://evergreenprotocol.com/"},"hasDefinedTerm":[{"@type":"DefinedTerm","name":"Reference continuity","description":"The governance discipline of maintaining the validity, version integrity, citeability, and operational coherence of institutional reference systems under accelerated change.","inDefinedTermSet":"https://evergreenprotocol.com/en/definitions/"},{"@type":"DefinedTerm","name":"Reference decay","description":"The gradual loss of validity, citeability, or operational coherence in a reference system.","inDefinedTermSet":"https://evergreenprotocol.com/en/definitions/"},{"@type":"DefinedTerm","name":"Evergreen Protocol","description":"A documented unit of governance with bounded scope, named roles, listed artifacts, acceptance criteria, and a defined review and versioning regime.","inDefinedTermSet":"https://evergreenprotocol.com/en/definitions/"},{"@type":"DefinedTerm","name":"Category standard","description":"A versioned, citable reference that defines the scope, vocabulary, and explicit boundaries of a specific governance category.","inDefinedTermSet":"https://evergreenprotocol.com/en/definitions/"},{"@type":"DefinedTerm","name":"Evidence posture","description":"The structural readiness of an organization to demonstrate that its protocols, decisions, and knowledge assets were valid at the point of use.","inDefinedTermSet":"https://evergreenprotocol.com/en/definitions/"},{"@type":"DefinedTerm","name":"Version discipline","description":"The practice of recording what changed in a reference system, when the change occurred, why it was made, and under whose authority.","inDefinedTermSet":"https://evergreenprotocol.com/en/definitions/"}]}
   </script>
 </head>
 <body class="definitions-page">
@@ -50,6 +50,12 @@
         <h1>Definitions</h1>
         <p class="doc-summary">Canonical meanings for terms used across this reference. Local overrides require an explicit exception.</p>
         <p class="muted">Unless an Evergreen Protocol document explicitly defines a local override, the meanings below apply.</p>
+        <div class="doc-meta-row" role="note">
+          <div class="doc-meta-item">
+            <strong class="doc-meta-label">Machine-readable:</strong>
+            <span class="doc-meta-body"><a class="inline" href="../definitions.json">definitions.json</a> — 24 governed terms · see <a class="inline" href="../machine-readable/">Machine-Readable Reference</a></span>
+          </div>
+        </div>
       </header>
 
       <details class="depth-toggle">
@@ -107,7 +113,7 @@
           <dd>A testable condition that distinguishes compliant operation from non-compliance. Criteria should be observable and attributable to an owner.</dd>
 
           <dt>Review cadence</dt>
-          <dd>The scheduled and event-triggered timetable for revisiting a protocol’s truth: whether it still matches reality, whether artifacts align, and whether exceptions remain justified.</dd>
+          <dd>The scheduled and event-triggered timetable for revisiting a protocol's truth: whether it still matches reality, whether artifacts align, and whether exceptions remain justified.</dd>
 
           <dt>Entropy check</dt>
           <dd>A structured examination during review for common drift modes: tacit exceptions, definition forks, surface drift, and ownership vacuums.</dd>
@@ -134,7 +140,7 @@
           <dd>A protocol update recorded with version number, date, author, summary, and accessible history (diff or change log). Semantic rules for major, minor, and patch are defined in the <a class="inline" href="../methodology/">Methodology</a>.</dd>
 
           <dt>Validity</dt>
-          <dd>The degree to which operational reality matches the protocol’s claims and artifacts. Validity is maintained by review, not by assertion.</dd>
+          <dd>The degree to which operational reality matches the protocol's claims and artifacts. Validity is maintained by review, not by assertion.</dd>
 
           <dt>Reference layer</dt>
           <dd>A site or document set intended to be cited, audited, and reused across contexts. This property imposes obligations: stable URLs where possible, explicit updates, and definitional discipline.</dd>
@@ -151,10 +157,10 @@
         <h2 id="sec-nondef">Non-definitions (common misreadings)</h2>
         <dl>
           <dt>Protocol (general English)</dt>
-          <dd>In ordinary speech, “protocol” may mean etiquette or a technical handshake. On this site, unless explicitly qualified, “protocol” means a governed Evergreen Protocol as defined above.</dd>
+          <dd>In ordinary speech, "protocol" may mean etiquette or a technical handshake. On this site, unless explicitly qualified, "protocol" means a governed Evergreen Protocol as defined above.</dd>
 
           <dt>Evergreen (finance or horticulture)</dt>
-          <dd>Other fields use “evergreen” for contracts or plants. This reference uses “evergreen” only to denote continuity-with-review, not a particular financial instrument or biological metaphor.</dd>
+          <dd>Other fields use "evergreen" for contracts or plants. This reference uses "evergreen" only to denote continuity-with-review, not a particular financial instrument or biological metaphor.</dd>
         </dl>
       </section>
 
@@ -165,6 +171,7 @@
           <li><a class="inline" href="../manifesto/">Manifesto</a> — philosophical grounding.</li>
           <li><a class="inline" href="../category-standard/">Category Standard</a> — the scope these definitions serve.</li>
           <li><a class="inline" href="../cite/">Cite</a> — how to cite specific definitions.</li>
+          <li><a class="inline" href="../machine-readable/">Machine-Readable Reference</a> — <a class="inline" href="../definitions.json">definitions.json</a> and versioned JSON files.</li>
         </ul>
       </nav>
     </article>

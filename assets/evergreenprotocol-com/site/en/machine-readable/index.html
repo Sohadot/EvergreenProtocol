@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#F6F8F3">
+  <meta name="robots" content="index,follow">
+  <title>Machine-Readable Reference — Evergreen Protocol</title>
+  <meta name="description" content="Static versioned JSON reference files for Evergreen Protocol v1.0 — for AI agents, institutional systems, RAG pipelines, and citation tools.">
+  <link rel="canonical" href="https://evergreenprotocol.com/en/machine-readable/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Evergreen Protocol">
+  <meta property="og:title" content="Machine-Readable Reference — Evergreen Protocol">
+  <meta property="og:description" content="Static versioned JSON reference files for AI agents, institutional systems, and citation tools.">
+  <meta property="og:url" content="https://evergreenprotocol.com/en/machine-readable/">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","name":"Machine-Readable Reference — Evergreen Protocol","description":"Static versioned JSON reference files for Evergreen Protocol v1.0 — for AI agents, institutional systems, and citation tools.","url":"https://evergreenprotocol.com/en/machine-readable/","datePublished":"2026-06-25","dateModified":"2026-06-25","isPartOf":{"@type":"WebSite","name":"Evergreen Protocol","url":"https://evergreenprotocol.com/"}}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site">
+    <div class="inner inner--narrow">
+      <div class="site-brand-row">
+        <span class="site-domain">evergreenprotocol.com</span>
+        <span class="site-purpose">Machine-readable reference · static JSON</span>
+      </div>
+      <nav class="primary" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">Home</a>
+        <a href="../category-standard/">Category Standard</a>
+        <a href="../ai-era-digital-continuity/">AI-Era Continuity</a>
+        <a href="../manifesto/">Manifesto</a>
+        <a href="../methodology/">Methodology</a>
+        <a href="../definitions/">Definitions</a>
+        <a href="../cite/">Cite</a>
+        <a href="../changelog/">Changelog</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <article class="inner inner--narrow">
+      <header class="doc-head">
+        <p class="doc-layer-badge">Machine-readable layer · static</p>
+        <h1>Machine-Readable Reference</h1>
+        <p class="doc-summary">Evergreen Protocol publishes static, versioned JSON reference files to support AI agents, institutional systems, RAG pipelines, citation tools, and governance workflows. These files are stable, citable, and require no authentication or dynamic backend.</p>
+        <div class="doc-meta-row" role="note">
+          <div class="doc-meta-item">
+            <strong class="doc-meta-label">Architecture:</strong>
+            <span class="doc-meta-body">Static files only · no live API · no MCP endpoint (future-gated)</span>
+          </div>
+          <div class="doc-meta-item">
+            <strong class="doc-meta-label">Published:</strong>
+            <span class="doc-meta-body">June 2026 · Evergreen Protocol v1.0</span>
+          </div>
+        </div>
+      </header>
+
+      <section aria-labelledby="sec-files">
+        <h2 id="sec-files">Available files</h2>
+
+        <h3>Definitions index (live)</h3>
+        <p>The canonical definitions index for all 24 governed terms. Updated on standard version change.</p>
+        <pre class="code-block"><code>https://evergreenprotocol.com/en/definitions.json</code></pre>
+
+        <h3>Standard summary — v1.0 (pinned)</h3>
+        <p>Machine-readable summary of Evergreen Protocol Standard v1.0. Immutable after publication.</p>
+        <pre class="code-block"><code>https://evergreenprotocol.com/en/protocol/v1/standard.json</code></pre>
+
+        <h3>Definitions — v1.0 (pinned)</h3>
+        <p>Version-pinned definitions for v1.0. Immutable after publication. Future versions publish at new paths.</p>
+        <pre class="code-block"><code>https://evergreenprotocol.com/en/protocol/v1/definitions.json</code></pre>
+
+        <h3>Citation formats — v1.0 (pinned)</h3>
+        <p>Machine-readable citation formats for v1.0 in plain text, APA, Chicago, and BibTeX.</p>
+        <pre class="code-block"><code>https://evergreenprotocol.com/en/protocol/v1/citation.json</code></pre>
+      </section>
+
+      <section aria-labelledby="sec-versioning">
+        <h2 id="sec-versioning">Version pinning</h2>
+        <p>Files under <code>/en/protocol/v1/</code> are immutable after publication. They will not be modified when the standard is updated. Future standard versions publish at new paths: <code>/en/protocol/v1.1/</code>, <code>/en/protocol/v2/</code>, and so on.</p>
+        <p>The live definitions index at <code>/en/definitions.json</code> reflects the current active version and is updated when the standard advances.</p>
+        <p>This versioning approach ensures that citations made today remain valid and resolvable in the future, which is a direct application of the reference continuity principle this standard governs.</p>
+      </section>
+
+      <section aria-labelledby="sec-citation">
+        <h2 id="sec-citation">How to cite these files</h2>
+        <p>To cite the machine-readable standard in a governance document or AI system prompt:</p>
+        <pre class="code-block"><code>Evergreen Protocol v1.0 (2026). Machine-readable standard reference.
+https://evergreenprotocol.com/en/protocol/v1/standard.json</code></pre>
+        <p>For definitions citation, include the term and the definitions index URL:</p>
+        <pre class="code-block"><code>Evergreen Protocol v1.0 (2026). Definition: [term].
+https://evergreenprotocol.com/en/definitions.json</code></pre>
+        <p>For human-readable citation formats, see <a class="inline" href="../cite/">How to Cite</a>.</p>
+      </section>
+
+      <section aria-labelledby="sec-not">
+        <h2 id="sec-not">What these files do not provide</h2>
+        <ul>
+          <li><strong>No certification or compliance verdict</strong> — these files document the standard and its definitions; they do not certify that any organization complies with the standard.</li>
+          <li><strong>No live API or dynamic endpoint</strong> — all files are static. No authentication, rate limits, or service agreement applies.</li>
+          <li><strong>No MCP endpoint</strong> — a Model Context Protocol-compatible layer is future-gated and not present in this architecture.</li>
+          <li><strong>No readiness score or assessment</strong> — no scoring, ranking, or assessment logic is embedded in or returned by these files.</li>
+          <li><strong>No external recognition or endorsement</strong> — these files reflect the internal governance of the Evergreen Protocol standard only.</li>
+          <li><strong>No registry</strong> — no organization is listed as registered, endorsed, or compliant in these files.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="sec-format">
+        <h2 id="sec-format">File format and schema</h2>
+        <p>All files use JSON with Schema.org <code>@context</code> and <code>@type</code> annotations where appropriate (<code>DefinedTermSet</code>, <code>CreativeWork</code>). They are served as static <code>.json</code> files with no server-side rendering.</p>
+        <p>Consumers should treat these files as reference data, not as executable API contracts. The authoritative human-readable source for all terms and governance statements is the HTML pages on this site.</p>
+      </section>
+
+      <nav class="next-read" aria-labelledby="next-read-heading">
+        <h2 id="next-read-heading">Related pages</h2>
+        <ul>
+          <li><a class="inline" href="../category-standard/">Category Standard</a> — the declaration these files support.</li>
+          <li><a class="inline" href="../cite/">How to Cite</a> — human-readable citation formats.</li>
+          <li><a class="inline" href="../changelog/">Changelog</a> — version history and review cadence.</li>
+          <li><a class="inline" href="../definitions/">Definitions</a> — authoritative human-readable vocabulary.</li>
+        </ul>
+      </nav>
+    </article>
+  </main>
+  <footer class="site">
+    <div class="inner inner--narrow footer-inner">
+      <div class="footer-tagline">evergreenprotocol.com — category standard for AI-era digital continuity. Version 1.0.</div>
+    </div>
+  </footer>
+</body>
+</html>
