@@ -60,7 +60,7 @@ Public application routes:
 **Explicit non-decisions (ruled out by this decision):**
 - No registry opened.
 - No third-party assessment workflow created.
-- No checklist, tool, score, or readiness endpoint created.
+- No checklist, tool, calculated-output workflow, or readiness endpoint created.
 - No dynamic backend created.
 - No external company assessment created.
 - No certification, validation, verification, endorsement, or external recognition created.
@@ -68,3 +68,38 @@ Public application routes:
 **Authority:** Standard owner — evergreenprotocol.com
 **Sprint:** Sprint 3 — Reference Application Layer v1
 **Related:** `architecture.md` reference application layer section
+
+
+---
+
+## 2026-06-25 — Reference continuity readiness entry point
+
+**Decision:** Evergreen Protocol now exposes a practical readiness entry point to make reference continuity legible to institutional readers while preserving non-certification boundaries.
+
+**Rationale:** Institutional readers need a practical way to orient around the core dimensions of reference continuity before adopting formal protocols or machine-readable reference structures. A static self-orientation guide provides that entry point without creating a tool, backend, registry, form submission path, or external evaluation workflow.
+
+**Scope of this decision:**
+
+Public route:
+- `/reference-continuity-readiness/`
+
+Covered readiness dimensions:
+- Version discipline
+- Citation stability
+- Evidence posture
+- Definition control
+- Changelog integrity
+- Update governance
+- Machine-readable reference structure
+
+**Explicit non-decisions (ruled out by this decision):**
+- No diagnostic tool created.
+- No form submission path created.
+- No registry opened.
+- No dynamic backend created.
+- No calculated-output workflow created.
+- No certification or external evaluation workflow created.
+
+**Authority:** Standard owner — evergreenprotocol.com
+**Sprint:** Sprint 4 — Reference Continuity Readiness Entry Point
+**Related:** `architecture.md` reference continuity readiness layer section

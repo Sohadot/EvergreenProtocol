@@ -34,6 +34,7 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 | `site/machine-readable/index.html` | Machine-readable reference index — human-readable explanation of static JSON files, citation use, and exclusions. |
 | `site/applications/index.html` | Reference applications hub — controlled public application layer. |
 | `site/applications/*/index.html` | Application pages for AI documentation, knowledge systems, digital infrastructure, and strategic digital assets. |
+| `site/reference-continuity-readiness/index.html` | Practical readiness entry point — self-orientation guide for institutional readers. |
 | `site/definitions.json` | Public canonical definitions index for governed terms. |
 | `site/protocol/v1/definitions.json` | Version-pinned definitions for Evergreen Protocol v1.0. |
 | `site/protocol/v1/standard.json` | Version-pinned machine-readable summary of Evergreen Protocol Standard v1.0. |
@@ -55,7 +56,7 @@ The machine-readable layer is static-first:
 
 Files under `/protocol/v1/` must not be silently overwritten after publication. Future versions must publish at new versioned paths such as `/protocol/v1.1/` or `/protocol/v2/`.
 
-The MCP-compatible layer remains future-gated. No MCP endpoint, dynamic backend, scoring engine, compliance registry, readiness checklist, or certification system is opened by this architecture.
+The MCP-compatible layer remains future-gated. No MCP endpoint, dynamic backend, calculation engine, compliance registry, readiness checklist, or certification system is opened by this architecture.
 
 ### Reference application layer
 
@@ -67,7 +68,7 @@ The application layer is a public reference layer, not an assessment surface:
 - `/applications/digital-infrastructure-continuity/` applies the standard to infrastructure documentation and dependency references.
 - `/applications/strategic-digital-asset-continuity/` applies the standard to strategic digital assets and reference-grade public properties.
 
-Reference applications demonstrate protocol applicability without opening a registry, checklist, tool, score, third-party assessment workflow, certification system, dynamic backend, or external submission path.
+Reference applications demonstrate protocol applicability without opening a registry, checklist, tool, calculated-output workflow, third-party evaluation workflow, certification system, dynamic backend, or external submission path.
 
 ## Conceptual layers (narrative hierarchy)
 
