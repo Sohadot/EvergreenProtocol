@@ -6,6 +6,66 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 ---
 
+## 2026-06-25 — AI-era digital continuity reference page
+
+**Decision:** Evergreen Protocol now includes a root-level flagship reference page at `/ai-era-digital-continuity/` explaining the core market problem the protocol addresses: AI-era digital continuity and reference decay under accelerated institutional change.
+
+**Rationale:** A category standard addressing AI-era digital continuity needs a publicly legible explanation of the problem it governs — not just the standard itself, its applications, and its reference cases. A standalone flagship reference page at the root path makes the problem visible to readers who arrive outside the `/en/` path hierarchy, supporting institutional intelligibility, search discovery, and reader orientation before deeper protocol engagement.
+
+**Scope of this decision:**
+
+Public route:
+- `/ai-era-digital-continuity/`
+
+Page sections:
+- What AI-era digital continuity is
+- The reference decay problem (five decay patterns)
+- Why AI accelerates documentation and governance drift (six AI-specific accelerants)
+- What must remain continuous (seven continuity properties)
+- Where this problem appears (six institutional domains)
+- How Evergreen Protocol addresses it (six protocol components)
+- What this page does not claim (non-certification statement)
+
+Internal links from `/ai-era-digital-continuity/` to:
+- `/en/category-standard/`
+- `/applications/`
+- `/reference-continuity-readiness/`
+- `/reference-cases/`
+- `/operator-brief/`
+- `/machine-readable/`
+- `/en/cite/`
+- `/en/changelog/`
+
+Inbound links added from:
+- Homepage (`/en/`) → `/ai-era-digital-continuity/`
+- `/en/category-standard/` → `/ai-era-digital-continuity/`
+- `/applications/` → `/ai-era-digital-continuity/`
+- `/reference-cases/` → `/ai-era-digital-continuity/`
+- `/operator-brief/` → `/ai-era-digital-continuity/`
+
+JSON-LD schema: WebPage and CreativeWork only.
+
+Sitemap: `/ai-era-digital-continuity/` added with priority 0.8.
+
+Architecture: new IA row added for `site/ai-era-digital-continuity/index.html`.
+
+**Explicit non-decisions (ruled out by this decision):**
+- No certification language created.
+- No registry opened.
+- No score, rating, or compliance status produced.
+- No form, backend, or tool created.
+- No MCP endpoint created.
+- No dynamic workflow created.
+- No external party assessed or validated.
+- No preparatory governance files created.
+
+**Authority:** Standard owner — evergreenprotocol.com
+**Sprint:** Sprint 9 — AI-Era Digital Continuity Reference Page
+**Related:** `architecture.md` information architecture table; `domain-dossier.md` Sprint 9 update log entry
+
+
+---
+
 ## 2026-06-25 — Self-applied reference cases layer
 
 **Decision:** Evergreen Protocol now includes a controlled self-applied reference cases layer to demonstrate protocol use within Sohadot-governed assets without creating certification, registry, scoring, external validation, or compliance status.

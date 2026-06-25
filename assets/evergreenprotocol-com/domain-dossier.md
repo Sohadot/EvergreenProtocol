@@ -793,7 +793,7 @@ complete Sprint 2 review and prepare Sprint 3 proof-of-application planning with
 
 Why This Is the Correct Next Action
 
-Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. Sprint 3 is complete: reference applications opened to demonstrate protocol applicability without certification or registry behavior. Sprint 4 is complete: the readiness layer opened as a self-orientation guide, not as certification, scoring, compliance, or external assessment. Sprint 5 is complete: operating-partner legibility established; asset remains positioned, not yet commercially validated. Sprint 6 is complete: operator brief activated to support qualified enterprise operator legibility; asset remains positioned pending external traction. Sprint 8 is complete: proof-of-application strengthened through self-applied reference cases within Sohadot-governed assets; asset remains positioned pending external traction. The category is declared, machine-readable, demonstrated across bounded application domains, practically legible, commercially readable under controlled boundaries, legible to qualified institutional operators through a governed concise brief, and strengthened through self-applied proof-of-application cases.
+Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. Sprint 3 is complete: reference applications opened to demonstrate protocol applicability without certification or registry behavior. Sprint 4 is complete: the readiness layer opened as a self-orientation guide, not as certification, scoring, compliance, or external assessment. Sprint 5 is complete: operating-partner legibility established; asset remains positioned, not yet commercially validated. Sprint 6 is complete: operator brief activated to support qualified enterprise operator legibility; asset remains positioned pending external traction. Sprint 8 is complete: proof-of-application strengthened through self-applied reference cases within Sohadot-governed assets; asset remains positioned pending external traction. Sprint 9 is complete: the core market problem page — AI-Era Digital Continuity — now exists as a flagship reference page at `/ai-era-digital-continuity/`, making the problem Evergreen Protocol addresses publicly legible outside the /en/ path hierarchy. The category is declared, machine-readable, demonstrated across bounded application domains, practically legible, commercially readable under controlled boundaries, legible to qualified institutional operators through a governed concise brief, strengthened through self-applied proof-of-application cases, and the core market problem is now publicly legible at the root path.
 
 
 ---
@@ -886,6 +886,17 @@ Change Type: proof-of-application layer
 Summary: Opened `/reference-cases/` hub and four self-applied reference case pages: Bisulfid (reference atlas continuity), EuraPlan (regulatory reference continuity), AIElectronicChips (dependency reference continuity), and Outmerchant (standard and diagnostic continuity). Linked from homepage, `/applications/`, `/operator-brief/`, and `/strategic-operating-partnership/`. Updated sitemap, architecture, and governance records.
 
 Strategic Meaning: Proof-of-application strengthened through self-applied cases; asset remains positioned pending external traction. The reference cases layer demonstrates protocol use within Sohadot-governed assets without creating certification, registry, scoring, external validation, or compliance status.
+
+
+Sprint 9 — AI-Era Digital Continuity Reference Page
+
+Date: 2026-06-25
+
+Change Type: flagship reference page
+
+Summary: Created `/ai-era-digital-continuity/` as a root-level public reference page explaining the core market problem Evergreen Protocol addresses: AI-era digital continuity and reference decay under accelerated institutional change. The page covers what AI-era digital continuity is, the reference decay problem, why AI accelerates documentation and governance drift, what must remain continuous, where the problem appears, how Evergreen Protocol addresses it, and a non-claim statement. Added inbound links from homepage, category standard, applications hub, reference cases hub, and operator brief. Updated sitemap, architecture, and governance records.
+
+Strategic Meaning: The core market problem Evergreen Protocol addresses is now publicly legible at a root-level page outside the /en/ path hierarchy. The flagship reference page supports reader orientation, institutional intelligibility, and search discovery of the continuity governance problem space. Asset maturity remains positioned.
 
 
 ---
