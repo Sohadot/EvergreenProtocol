@@ -29,7 +29,7 @@ Secondary Objective: dignified recurring income without degrading authority, pre
 
 Date Opened: 2025-06-25
 
-Last Updated: 2025-06-25
+Last Updated: 2026-06-25
 
 
 
@@ -789,11 +789,11 @@ evergreenprotocol.com is now in active sovereign-asset build mode. Sprint 1 of t
 
 Immediate Next Action
 
-continue Sprint 2 — Category Standard v1.0 formalization and versioned definition API layer
+complete Sprint 2 review and prepare Sprint 3 proof-of-application planning without advancing maturity beyond positioned
 
 Why This Is the Correct Next Action
 
-Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. The asset now needs its structured data layer — versioned JSON-LD definitions endpoint and the /definitions.json machine-readable surface — to become AI-consumable as specified in Sprint 5. Sprint 3 proof-of-application pages (Bisulfid.com, EuraPlan.com, AIElectronicChips.com, Outmerchant.com) will demonstrate the standard's governance against real reference cases. The category is declared; now it must be evidenced.
+Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. This improves AI-consumability and institutional legibility while preserving a static-first posture. Sprint 3 proof-of-application pages (Bisulfid.com, EuraPlan.com, AIElectronicChips.com, Outmerchant.com) may later demonstrate the standard's governance against real reference cases. The category is declared and machine-readable; it remains positioned, not matured beyond that stage.
 
 
 ---
@@ -820,6 +820,17 @@ Change Type: major reframe + new pages
 Summary: Repositioned the asset from methodology reference to AI-Era Digital Continuity category standard. Published four new pages (category-standard, ai-era-digital-continuity, cite, changelog) and reframed four existing pages (index, manifesto, methodology, definitions). Added category terms section to definitions page. Expanded navigation to eight items across all pages.
 
 Strategic Meaning: The asset formally declared a governance category (reference continuity). It now carries a citable category standard at version 1.0, versioned definitions, citation formats, and self-applied version governance. The Self-Application Principle is live: the changelog page uses the same governance rules the standard prescribes.
+
+
+Sprint 2 — Versioned Machine-Readable Reference Layer
+
+Date: 2026-06-25
+
+Change Type: static reference layer
+
+Summary: Added root canonical static JSON reference files, version-pinned v1 files, and a human-readable `/machine-readable/` index. Public core pages link to the machine-readable layer, and the sitemap documents that JSON files are excluded as non-HTML resources.
+
+Strategic Meaning: The machine-readable reference structure improves AI-consumability and institutional legibility while avoiding a dynamic API, MCP endpoint, certification system, compliance registry, readiness checklist, or external submission system. Asset maturity remains positioned.
 
 
 ---

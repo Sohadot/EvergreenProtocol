@@ -31,8 +31,29 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 | `site/en/definitions/index.html` | Controlled vocabulary — category terms and core terms, versioned. |
 | `site/en/cite/index.html` | Citation guidance — plain text, APA, Chicago, BibTeX, and AI-system formats. |
 | `site/en/changelog/index.html` | Version governance — self-applied change record, review cadence, and governance rules. |
+| `site/machine-readable/index.html` | Machine-readable reference index — human-readable explanation of static JSON files, citation use, and exclusions. |
+| `site/definitions.json` | Public canonical definitions index for governed terms. |
+| `site/protocol/v1/definitions.json` | Version-pinned definitions for Evergreen Protocol v1.0. |
+| `site/protocol/v1/standard.json` | Version-pinned machine-readable summary of Evergreen Protocol Standard v1.0. |
+| `site/protocol/v1/citation.json` | Version-pinned machine-readable citation formats for Evergreen Protocol v1.0. |
 
-Further applications (Reference Application Registry, Evergreen Readiness Checklist), machine-readable API layer (`/definitions.json`, `/protocol/v1/standard.json`), and additional locales are excluded until gated.
+Localized English JSON mirrors may exist under `site/en/` for continuity with existing English pages, but root static JSON paths are the canonical machine-readable references.
+
+Further applications (Reference Application Registry, Evergreen Readiness Checklist), dynamic API surfaces, MCP-compatible endpoints, external submission systems, and additional locales are excluded until gated.
+
+### Machine-readable layer
+
+The machine-readable layer is static-first:
+
+- `/definitions.json` is the public canonical definitions index.
+- `/protocol/v1/definitions.json` is stable and citable for Evergreen Protocol v1.0.
+- `/protocol/v1/standard.json` summarizes the v1.0 standard as machine-readable reference data.
+- `/protocol/v1/citation.json` provides machine-readable citation formats.
+- `/machine-readable/` explains the available files, citation use, and explicit exclusions.
+
+Files under `/protocol/v1/` must not be silently overwritten after publication. Future versions must publish at new versioned paths such as `/protocol/v1.1/` or `/protocol/v2/`.
+
+The MCP-compatible layer remains future-gated. No MCP endpoint, dynamic backend, scoring engine, compliance registry, readiness checklist, or certification system is opened by this architecture.
 
 ## Conceptual layers (narrative hierarchy)
 

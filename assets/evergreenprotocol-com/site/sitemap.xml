@@ -49,11 +49,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://evergreenprotocol.com/machine-readable/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://evergreenprotocol.com/en/machine-readable/</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 </urlset>
-<!-- JSON reference files (/en/definitions.json, /en/protocol/v1/*.json) are excluded
-     from this sitemap as non-HTML resources. They are documented at /en/machine-readable/ -->
+<!-- JSON reference files (/definitions.json, /protocol/v1/*.json, and localized /en/*.json)
+     are excluded from this sitemap as non-HTML resources. They are documented at /machine-readable/ -->

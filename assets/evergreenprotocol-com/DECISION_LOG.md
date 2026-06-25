@@ -15,14 +15,16 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 **Scope of this decision:**
 
 Files governed by this decision:
-- `/en/definitions.json` — live canonical definitions index (24 terms)
-- `/en/protocol/v1/definitions.json` — version-pinned definitions for v1.0
-- `/en/protocol/v1/standard.json` — machine-readable standard summary for v1.0
-- `/en/protocol/v1/citation.json` — machine-readable citation formats for v1.0
+- `/definitions.json` — public canonical definitions index (15 governed terms)
+- `/protocol/v1/definitions.json` — version-pinned definitions for v1.0
+- `/protocol/v1/standard.json` — machine-readable standard summary for v1.0
+- `/protocol/v1/citation.json` — machine-readable citation formats for v1.0
 
-Human-readable index: `/en/machine-readable/`
+Localized English mirrors may exist under `/en/` for continuity with existing public pages.
 
-**Version pinning rule:** Files under `/en/protocol/v1/` are immutable after publication. Future standard versions create new paths (`/en/protocol/v1.1/`, `/en/protocol/v2/`). The live index at `/en/definitions.json` may be updated on minor or major version change.
+Human-readable index: `/machine-readable/`
+
+**Version pinning rule:** Files under `/protocol/v1/` are immutable after publication. Future standard versions create new paths (`/protocol/v1.1/`, `/protocol/v2/`). The live index at `/definitions.json` may be updated on minor or major version change.
 
 **Explicit non-decisions (ruled out by this decision):**
 - No dynamic API created.

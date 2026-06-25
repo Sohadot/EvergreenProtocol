@@ -1,0 +1,16 @@
+{
+  "standardName": "Evergreen Protocol",
+  "version": "1.0",
+  "pinned": true,
+  "published": "2026-06-25",
+  "lastUpdated": "2026-06-25",
+  "shortCitation": "Evergreen Protocol v1.0 (2026).",
+  "institutionalCitation": "Evergreen Protocol. (2026). Reference Continuity Standard (Version 1.0). https://evergreenprotocol.com/en/category-standard/",
+  "webCitation": "Evergreen Protocol v1.0 (2026), Reference Continuity Standard, https://evergreenprotocol.com/en/category-standard/",
+  "canonicalReference": "https://evergreenprotocol.com/en/category-standard/",
+  "versionedReference": "https://evergreenprotocol.com/protocol/v1/standard.json",
+  "machineReadableCitationUrl": "https://evergreenprotocol.com/protocol/v1/citation.json",
+  "citationGuidanceUrl": "https://evergreenprotocol.com/en/cite/",
+  "definitionCitationPattern": "Evergreen Protocol v1.0 (2026). Definition: [term]. https://evergreenprotocol.com/en/definitions/",
+  "usageNotice": "Citation is permitted when the version is accurately stated and scope boundaries are observed. This standard does not constitute certification, compliance endorsement, external audit, or external recognition."
+}

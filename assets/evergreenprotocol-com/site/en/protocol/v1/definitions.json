@@ -44,7 +44,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Reference decay describes a governance risk in reference systems only. It is not a security incident, legal finding, or compliance verdict."
     },
     {
       "id": "ai-era-digital-continuity",
@@ -58,7 +59,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "AI-era digital continuity frames accelerated reference change. It does not evaluate AI models, certify AI systems, or define AI safety controls."
     },
     {
       "id": "category-standard",
@@ -72,7 +74,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "A category standard defines and documents a category. It does not certify, audit, impose legal obligations, or open a compliance registry."
     },
     {
       "id": "evergreen-protocol",
@@ -86,7 +89,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "This term describes a governance pattern within the standard. It is not a product category, certification mark, or external recognition claim."
     },
     {
       "id": "architecture-of-constancy",
@@ -100,7 +104,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "This layer structures reference governance only. It does not prescribe software architecture, security architecture, or implementation tooling."
     },
     {
       "id": "anti-entropy-protocol",
@@ -114,7 +119,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "This is a conceptual governance layer. It does not assert perfect control, literal permanence, or technical entropy measurement."
     },
     {
       "id": "zero-season-algorithm",
@@ -128,7 +134,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "This term names review timing logic. It is not a mathematical algorithm, automated assessment, or scoring engine."
     },
     {
       "id": "scope-boundary",
@@ -142,7 +149,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "A scope boundary clarifies coverage. It does not assign legal responsibility or certify that a system is inside or outside compliance."
     },
     {
       "id": "artifact",
@@ -156,7 +164,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "An artifact supports reference traceability. Listing an artifact does not certify its quality, completeness, or compliance status."
     },
     {
       "id": "acceptance-criterion",
@@ -170,7 +179,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Acceptance criteria are internal governance conditions. They are not public compliance tests, readiness scores, or certification checks."
     },
     {
       "id": "review-cadence",
@@ -184,7 +194,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Review cadence defines when review occurs. It does not guarantee outcomes, approve organizations, or open a submission workflow."
     },
     {
       "id": "entropy-check",
@@ -198,7 +209,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "An entropy check is a review activity. It is not an automated scanner, compliance audit, or live readiness checklist."
     },
     {
       "id": "entropy-drift",
@@ -212,7 +224,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Entropy drift identifies divergence between references and practice. It is not a scoring system, incident classification, or compliance finding."
     },
     {
       "id": "maintainer",
@@ -226,7 +239,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Maintainer is a role within reference governance. It does not imply external authority, accreditation, or unilateral legal power."
     },
     {
       "id": "approver",
@@ -240,7 +254,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Approver is a role within a protocol governance process. It does not create public certification authority or third-party endorsement."
     },
     {
       "id": "evidence-steward",
@@ -254,7 +269,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Evidence steward is an internal accountability role. It does not provide external assurance, audit status, or compliance certification."
     },
     {
       "id": "consumer",
@@ -268,7 +284,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Consumer identifies a person or team operating under a protocol. It does not create a public registry or external participant status."
     },
     {
       "id": "exception",
@@ -282,7 +299,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Exception describes a documented deviation in protocol governance. It is not a waiver of legal obligations or external compliance approval."
     },
     {
       "id": "versioned-change",
@@ -296,7 +314,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Versioned change supports citation and history. It does not create a dynamic API, public change registry, or submission system."
     },
     {
       "id": "validity",
@@ -310,7 +329,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Validity describes alignment between reference and reality. It is maintained by review and is not an external assurance opinion."
     },
     {
       "id": "reference-layer",
@@ -324,7 +344,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Reference layer describes a citable document or site surface. It is not an MCP endpoint, dynamic API, or execution environment."
     },
     {
       "id": "evidence-posture",
@@ -338,7 +359,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Evidence posture is a reference governance concept. It is not an audit opinion, assurance report, or proof of external compliance."
     },
     {
       "id": "version-discipline",
@@ -352,7 +374,8 @@
       "lastUpdated": "2026-06-25",
       "citationPath": "/en/definitions/",
       "humanUrl": "https://evergreenprotocol.com/en/definitions/",
-      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json"
+      "machineUrl": "https://evergreenprotocol.com/en/protocol/v1/definitions.json",
+      "boundaryNote": "Version discipline supports citation stability. It does not create a dynamic API, change registry, or external submission process."
     }
   ]
 }
