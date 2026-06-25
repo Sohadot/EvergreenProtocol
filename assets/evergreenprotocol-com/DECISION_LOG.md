@@ -6,6 +6,57 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 ---
 
+## 2026-06-25 — Operator brief layer
+
+**Decision:** Evergreen Protocol now includes an operator brief to make the asset legible to qualified enterprise operators while preserving governance boundaries and avoiding certification, registry, pricing, or acquisition-promise behavior.
+
+**Rationale:** Qualified operators in AI governance, GRC, enterprise knowledge governance, digital preservation, records management, and institutional advisory need a concise, governed entry point that explains the commercial logic, operating model, boundaries, and post-traction acquisition path without creating a sales page, pricing page, public partner program, form, backend, certification system, or acquisition promise. The operator brief provides that entry point.
+
+**Scope of this decision:**
+
+Public route:
+- `/operator-brief/`
+
+Internal links from:
+- Homepage (`/en/`) → `/operator-brief/`
+- `/strategic-operating-partnership/` → `/operator-brief/`
+
+Internal links from `/operator-brief/` to:
+- `/strategic-operating-partnership/`
+- `/en/category-standard/`
+- `/applications/`
+- `/reference-continuity-readiness/`
+- `/machine-readable/`
+- `/en/cite/`
+- `/en/changelog/`
+
+JSON-LD schema: WebPage and CreativeWork only.
+
+Sitemap: `/operator-brief/` added.
+
+Architecture: operator-brief recorded as commercial-readiness narrative layer; not a pricing, partner application, certification, or acquisition page.
+
+**Explicit non-decisions (ruled out by this decision):**
+- No pricing created.
+- No form or backend created.
+- No payment flow created.
+- No public partner application created.
+- No partner logos or external endorsements published.
+- No certification program created.
+- No compliance status issued.
+- No registry opened.
+- No score or rating produced.
+- No automatic acquisition right granted.
+- No domain-for-sale framing introduced.
+- No Product, Offer, Service, Review, Rating, Certification, Organization endorsement, or AggregateRating schema used.
+
+**Authority:** Standard owner — evergreenprotocol.com
+**Sprint:** Sprint 6 — Operator Brief Layer
+**Related:** `architecture.md` information architecture table; `domain-dossier.md` Sprint 6 update log entry
+
+
+---
+
 ## 2026-06-25 — Static versioned machine-readable reference layer
 
 **Decision:** Evergreen Protocol now exposes a static, versioned machine-readable reference layer to support AI-era digital continuity, citation stability, and future operating partnerships — without creating a tool, certification system, or dynamic API.

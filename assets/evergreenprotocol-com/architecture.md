@@ -22,7 +22,7 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 ### Information architecture (current)
 
 | Path | Purpose |
-|------|---------|
+|------|--------|
 | `site/en/index.html` | Home — category standard declaration, AI-era continuity thesis, layer overview. |
 | `site/en/category-standard/index.html` | Category Standard v1.0 — reference continuity governance declaration, scope, and boundary. |
 | `site/en/ai-era-digital-continuity/index.html` | AI-Era Digital Continuity — market context, reference decay problem, governance gap. |
@@ -36,6 +36,7 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 | `site/applications/*/index.html` | Application pages for AI documentation, knowledge systems, digital infrastructure, and strategic digital assets. |
 | `site/reference-continuity-readiness/index.html` | Practical readiness entry point — self-orientation guide for institutional readers. |
 | `site/strategic-operating-partnership/index.html` | Controlled commercial-readiness surface for qualified operating, licensing, and post-traction acquisition discussions. |
+| `site/operator-brief/index.html` | Operator Brief — commercial-readiness narrative layer for qualified enterprise operators; not a pricing, partner application, certification, or acquisition page. |
 | `site/definitions.json` | Public canonical definitions index for governed terms. |
 | `site/protocol/v1/definitions.json` | Version-pinned definitions for Evergreen Protocol v1.0. |
 | `site/protocol/v1/standard.json` | Version-pinned machine-readable summary of Evergreen Protocol Standard v1.0. |
