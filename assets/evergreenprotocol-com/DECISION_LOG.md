@@ -6,11 +6,59 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 ---
 
+## 2026-06-26 — Reference decay intelligence brief (Brief 001)
+
+**Decision:** Evergreen Protocol now carries its first intelligence brief at `/briefs/reference-decay-in-ai-documentation/`. The brief presents four operational cases of reference decay in enterprise AI documentation: the unversioned model card, the policy URL that still loads, the agent citation from stale knowledge, and definition divergence across departments.
+
+**Rationale:** Term ownership at `/reference-decay/` defines the problem. Brief 001 demonstrates it through specific, operational scenarios that institutional readers can recognize and forward internally. The brief bridges the gap between an abstract term definition and the kind of analytical depth that establishes the asset as a genuine reference — not only a definitional surface but a source of governed intelligence about the problem the standard addresses. The four cases describe ordinary outcomes of AI documentation practices that lack version discipline, not failure modes or security incidents.
+
+**Scope of this decision:**
+
+Public route:
+- `/briefs/reference-decay-in-ai-documentation/`
+
+Brief sections:
+- What this brief examines (4 cases scoped)
+- Case 1: The unversioned model card
+- Case 2: The policy URL that still loads
+- Case 3: The agent citation from stale knowledge
+- Case 4: Definition divergence across departments
+- The compound governance exposure
+- What existing AI governance frameworks do not address
+- What this brief does not claim
+
+Inbound links added from:
+- Homepage (`/en/`) → `/briefs/reference-decay-in-ai-documentation/`
+- `/reference-decay/` → `/briefs/reference-decay-in-ai-documentation/`
+
+Sitemap: `/briefs/reference-decay-in-ai-documentation/` added at priority 0.8.
+
+Architecture: new IA row added for `site/briefs/reference-decay-in-ai-documentation/index.html`.
+
+**Governing sentence:** The model may still be governed. The reference may no longer be true.
+
+**Explicit non-decisions (ruled out by this decision):**
+- No certification language created.
+- No registry opened.
+- No score, rating, or compliance status produced.
+- No form, backend, or tool created.
+- No external party assessed or validated.
+- No claim that existing AI governance frameworks are deficient — they address model risk, not reference continuity.
+- No recommendation of specific products, vendors, or services.
+- No claim that Evergreen Protocol eliminates reference decay.
+
+**Authority:** Standard owner — evergreenprotocol.com
+**Sprint:** Sprint 11 — Reference Decay Intelligence Brief 001
+**Related:** `architecture.md` information architecture table; `domain-dossier.md` Sprint 11 update log entry
+
+
+---
+
 ## 2026-06-26 — Reference decay core term page
 
-**Decision:** Evergreen Protocol now owns the term “reference decay” through a dedicated core term page at `/reference-decay/`. The page defines the term, explains why AI agents make it urgent, distinguishes it from model risk, lists seven common decay forms, and reads it through six Evergreen Protocol governance dimensions.
+**Decision:** Evergreen Protocol now owns the term "reference decay" through a dedicated core term page at `/reference-decay/`. The page defines the term, explains why AI agents make it urgent, distinguishes it from model risk, lists seven common decay forms, and reads it through six Evergreen Protocol governance dimensions.
 
-**Rationale:** Category inevitability does not begin with framework declaration. It begins with owning the term that names the pain. Enterprises searching for a definition of reference decay — or an AI agent retrieving a reference on the concept — should find Evergreen Protocol’s governed page as the clearest, most structured, and most citable available definition. Term ownership at `/reference-decay/` precedes and enables framework adoption. The page does not sell the protocol; it defines the problem the protocol addresses.
+**Rationale:** Category inevitability does not begin with framework declaration. It begins with owning the term that names the pain. Enterprises searching for a definition of reference decay — or an AI agent retrieving a reference on the concept — should find Evergreen Protocol's governed page as the clearest, most structured, and most citable available definition. Term ownership at `/reference-decay/` precedes and enables framework adoption. The page does not sell the protocol; it defines the problem the protocol addresses.
 
 **Scope of this decision:**
 
@@ -98,7 +146,7 @@ Architecture: new IA row added for `site/ai-era-digital-continuity/index.html`.
 
 **Decision:** Evergreen Protocol now includes a controlled self-applied reference cases layer to demonstrate protocol use within Sohadot-governed assets without creating certification, registry, scoring, external validation, or compliance status.
 
-**Rationale:** A category standard gains institutional legibility when proof-of-application is visible, not merely claimed. Self-applied reference cases show how Evergreen Protocol’s continuity principles apply to governed assets within the Sohadot portfolio, demonstrating scope, discipline, and governance without inviting external submissions, issuing compliance status, opening a registry, or creating any derivative certification behavior.
+**Rationale:** A category standard gains institutional legibility when proof-of-application is visible, not merely claimed. Self-applied reference cases show how Evergreen Protocol's continuity principles apply to governed assets within the Sohadot portfolio, demonstrating scope, discipline, and governance without inviting external submissions, issuing compliance status, opening a registry, or creating any derivative certification behavior.
 
 **Scope of this decision:**
 
