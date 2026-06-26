@@ -6,6 +6,7 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 ---
 
+
 ## 2026-06-25 — AI-era digital continuity reference page
 
 **Decision:** Evergreen Protocol now includes a root-level flagship reference page at `/ai-era-digital-continuity/` explaining the core market problem the protocol addresses: AI-era digital continuity and reference decay under accelerated institutional change.
@@ -65,6 +66,7 @@ Architecture: new IA row added for `site/ai-era-digital-continuity/index.html`.
 
 
 ---
+
 
 ## 2026-06-25 — Self-applied reference cases layer
 
