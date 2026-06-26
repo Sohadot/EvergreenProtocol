@@ -6,6 +6,60 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 ---
 
+## 2026-06-26 — Agentic systems and reference continuity (Brief 002)
+
+**Decision:** Evergreen Protocol now carries its second intelligence brief at `/briefs/agentic-systems-and-reference-continuity/`, analyzing five operational cases in which an enterprise agent executes correctly while the reference it acts on has decayed, and introducing the three-failure-mode taxonomy distinguishing model failure, execution failure, and reference failure.
+
+**Rationale:** Brief 001 demonstrated reference decay in enterprise AI documentation through four recognizable cases. Brief 002 extends that analysis to agentic execution: the specific condition in which agents do not fail — they execute correctly — but against a reference that institutional processes have changed, archived, or rendered invalid. This is the governance gap that neither model safety frameworks nor system safety guardrails address. The three-failure-mode taxonomy provides a conceptual frame that AI governance practitioners can use to locate reference continuity within their existing governance programs without displacing existing controls.
+
+**Scope of this decision:**
+
+Public route:
+- `/briefs/agentic-systems-and-reference-continuity/`
+
+Brief sections:
+- What enterprise agents rely on (eight reference types)
+- Three failure modes: model failure, execution failure, reference failure
+- Case 1: The stale approval rule
+- Case 2: The contradictory vendor definition
+- Case 3: The silent risk-threshold update
+- Case 4: The machine-readable drift
+- Case 5: The archived-but-still-cited reference
+- Why agents make reference decay worse (six dimensions)
+- Evergreen Protocol reading (seven dimensions)
+- What this brief does not claim
+
+Inbound links added from:
+- Homepage (`/en/`) → `/briefs/agentic-systems-and-reference-continuity/`
+- `/reference-decay/` → `/briefs/agentic-systems-and-reference-continuity/`
+- `/briefs/reference-decay-in-ai-documentation/` → `/briefs/agentic-systems-and-reference-continuity/`
+- `/operator-use-cases/enterprise-ai-governance/` → `/briefs/agentic-systems-and-reference-continuity/`
+- `/operator-brief/` → `/briefs/agentic-systems-and-reference-continuity/`
+
+Sitemap: `/briefs/agentic-systems-and-reference-continuity/` added at priority 0.8.
+
+Architecture: new IA row added for `site/briefs/agentic-systems-and-reference-continuity/index.html`.
+
+**Governing blockquote:** Model governance asks whether the model can be trusted. Reference continuity asks whether the references the agent acts on are still valid.
+
+**Explicit non-decisions (ruled out by this decision):**
+- No certification language created.
+- No registry opened.
+- No score, rating, or compliance status produced.
+- No form, backend, or tool created.
+- No preparatory governance files created.
+- No external party assessed or validated.
+- No claim that Evergreen Protocol eliminates reference decay or guarantees agent safety.
+- No claim that model governance or system safety frameworks are deficient.
+- No pricing, partner application, or acquisition solicitation created.
+
+**Authority:** Standard owner — evergreenprotocol.com
+**Sprint:** Sprint 13 — Agentic Systems and Reference Continuity (Brief 002)
+**Related:** `architecture.md` information architecture table; `domain-dossier.md` Sprint 13 update log entry
+
+
+---
+
 ## 2026-06-26 — Enterprise AI governance operator use case
 
 **Decision:** Evergreen Protocol now carries its first operator use case page at `/operator-use-cases/enterprise-ai-governance/`, demonstrating where reference decay appears in enterprise AI governance documentation and how Evergreen Protocol operates as a reference continuity layer.
