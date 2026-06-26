@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#F6F8F3">
+  <meta name="robots" content="index,follow">
+  <title>Agentic Systems and Reference Continuity - Evergreen Protocol</title>
+  <meta name="description" content="Enterprise agents execute against institutional references — policies, approval rules, risk thresholds, vendor definitions — that change over time. This brief examines five cases in which an agent executes correctly while the reference it acts on has decayed.">
+  <link rel="canonical" href="https://evergreenprotocol.com/briefs/agentic-systems-and-reference-continuity/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Evergreen Protocol">
+  <meta property="og:title" content="Agentic Systems and Reference Continuity - Evergreen Protocol">
+  <meta property="og:description" content="Enterprise agents execute against institutional references — policies, approval rules, risk thresholds, vendor definitions — that change over time. This brief examines five cases in which an agent executes correctly while the reference it acts on has decayed.">
+  <meta property="og:url" content="https://evergreenprotocol.com/briefs/agentic-systems-and-reference-continuity/">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","name":"Agentic Systems and Reference Continuity - Evergreen Protocol","description":"Enterprise agents execute against institutional references — policies, approval rules, risk thresholds, vendor definitions — that change over time. This brief examines five cases in which an agent executes correctly while the reference it acts on has decayed.","url":"https://evergreenprotocol.com/briefs/agentic-systems-and-reference-continuity/","datePublished":"2026-06-26","dateModified":"2026-06-26","isPartOf":{"@type":"WebSite","name":"Evergreen Protocol","url":"https://evergreenprotocol.com/"},"about":{"@type":"CreativeWork","name":"Evergreen Protocol","version":"1.0","url":"https://evergreenprotocol.com/en/category-standard/"}}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site">
+    <div class="inner inner--narrow">
+      <div class="site-brand-row">
+        <span class="site-domain">evergreenprotocol.com</span>
+        <span class="site-purpose">Intelligence brief · Reference Decay Series</span>
+      </div>
+      <nav class="primary" aria-label="Primary navigation">
+        <a class="brand" href="/en/">Home</a>
+        <a href="/en/category-standard/">Category Standard</a>
+        <a href="/applications/">Applications</a>
+        <a href="/reference-continuity-readiness/">Readiness</a>
+        <a href="/machine-readable/">Machine-Readable</a>
+        <a href="/en/cite/">Cite</a>
+        <a href="/en/changelog/">Changelog</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <article class="inner inner--narrow">
+      <header class="doc-head">
+        <p class="doc-layer-badge">Intelligence brief · Reference Decay Series · Brief 002</p>
+        <h1>Agentic Systems and Reference Continuity</h1>
+        <p class="doc-summary">Enterprise agentic systems do not only rely on models. They rely on institutional references — policies, approval rules, risk thresholds, vendor definitions, knowledge-base articles, and machine-readable governance files — that change over time. This brief examines five operational cases in which an agent executes correctly while the reference it acts on has decayed.</p>
+      </header>
+
+      <section aria-labelledby="sec-thesis">
+        <h2 id="sec-thesis">What enterprise agents rely on</h2>
+        <p>An enterprise agent deployed for workflow automation, procurement routing, compliance checking, knowledge retrieval, or operational decision support does not operate from model capability alone. It operates against institutional references: the policies, rules, definitions, and documentation that govern what it is supposed to do.</p>
+        <p>Those references include:</p>
+        <ul>
+          <li>Approval policies and authorization rules</li>
+          <li>Risk thresholds and tolerance limits</li>
+          <li>Vendor definitions and approved-supplier lists</li>
+          <li>Data-use policies and classification rules</li>
+          <li>Knowledge-base articles and procedural documentation</li>
+          <li>Workflow instructions and routing logic</li>
+          <li>Machine-readable governance files (JSON, YAML, structured metadata)</li>
+          <li>Regulatory and contractual references embedded in governance documents</li>
+        </ul>
+        <p>When those references are stable, versioned, and current, the agent performs as intended. When they are not — when they have been updated without version continuity, diverged between sources, or allowed to remain accessible after they have been superseded — the agent may execute correctly while the reference it acts on is no longer true.</p>
+      </section>
+
+      <section aria-labelledby="sec-failure-modes">
+        <h2 id="sec-failure-modes">Three failure modes</h2>
+        <p>Enterprise AI governance typically focuses on two categories of failure. Reference failure is the third, and it is the category this brief addresses.</p>
+        <dl class="definition-list">
+          <dt>Model failure</dt>
+          <dd>The model behaves incorrectly: it hallucinates, misclassifies, or produces an unreliable output. Model safety, red-teaming, and evaluation frameworks address this category.</dd>
+          <dt>Execution failure</dt>
+          <dd>The system acts incorrectly: the agent takes an unintended action, triggers the wrong process, or produces a harmful downstream effect. System safety, guardrails, and operational controls address this category.</dd>
+          <dt>Reference failure</dt>
+          <dd>The model and agent execute correctly, but against a reference that is no longer true. The policy cited was valid when indexed. The approval threshold was accurate when the workflow was built. The vendor definition was current when the agent was trained on it. All of those things changed. The agent did not fail — the reference did. Evergreen Protocol addresses this category.</dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="sec-case-1">
+        <h2 id="sec-case-1">Case 1: The stale approval rule</h2>
+        <p>An enterprise procurement agent routes approval decisions based on a spending authorization policy. The policy states that purchases under $50,000 may be approved at department level; purchases above that threshold require executive sign-off. The agent indexes the policy at deployment.</p>
+        <p>Twelve months later, a change in internal controls policy lowers the threshold to $25,000 for a specific vendor category following a procurement audit. The policy document is updated. The agent’s reference layer is not.</p>
+        <p>The agent continues routing $35,000 purchases in the affected category for department-level approval. The model performs correctly: it reads the rule it has and applies it. The execution is correct: the routing logic runs as designed. The reference is wrong: the agent is operating against a governance threshold that no longer exists.</p>
+        <p>No error is surfaced. The audit trail shows approved transactions, each with a reference to the authorization policy. What the audit trail does not show is that the policy version the agent consulted had been superseded before the decisions were made.</p>
+      </section>
+
+      <section aria-labelledby="sec-case-2">
+        <h2 id="sec-case-2">Case 2: The contradictory vendor definition</h2>
+        <p>A large enterprise maintains two reference sources for the term “approved vendor”: a procurement policy administered by the finance function, and a vendor risk register maintained by the security function. The two definitions diverged eighteen months ago following an internal restructuring, but no reconciliation was completed.</p>
+        <p>An agentic vendor routing system was built against the finance function’s definition. When a new engagement request arrives for a vendor that appears on the finance approved list but was removed from the security risk register following a posture review, the agent approves the routing.</p>
+        <p>The model performed correctly. The routing logic executed as designed. The reference the agent was built against authorized the decision. The reference the agent was not built against had reached a different conclusion — and both were live, citable, and governance-issued documents within the same organization.</p>
+        <p>Definition divergence at this level is a reference continuity problem. No individual reference decayed; the relationship between them did.</p>
+      </section>
+
+      <section aria-labelledby="sec-case-3">
+        <h2 id="sec-case-3">Case 3: The silent risk-threshold update</h2>
+        <p>A financial services firm deploys an agent to assist with credit exposure monitoring. The agent evaluates transaction-level risk against tolerance thresholds specified in the credit risk policy document. At deployment, the maximum single-counterparty exposure tolerance is documented at 8% of portfolio exposure.</p>
+        <p>Following a market event, the risk committee approves a reduction to 5%. The decision is recorded in meeting minutes and reflected in the updated policy document. The agent’s reference layer — the version of the policy it consults during evaluation — is not updated.</p>
+        <p>The agent continues flagging at 8% while the current governance limit is 5%. Transactions between 5% and 8% pass review without alert. The agent’s outputs are technically correct given the reference it has. The risk function and the agent are now operating against different versions of the same governance document.</p>
+        <p>The gap is not detectable from the agent’s outputs alone. It is only visible by comparing the agent’s active reference against the current policy version — a comparison that requires version discipline to make possible.</p>
+      </section>
+
+      <section aria-labelledby="sec-case-4">
+        <h2 id="sec-case-4">Case 4: The machine-readable drift</h2>
+        <p>An enterprise knowledge governance team maintains a structured governance file in JSON that an agentic system consumes directly to enforce classification rules. The same governance logic is also published as a human-readable internal policy page.</p>
+        <p>Over six months, the human-readable page is updated three times: once to add a classification category, once to revise a definition, and once to adjust an approval requirement. The JSON governance file is updated for the first revision but not the second or third. The team did not have a synchronized update protocol between the human-readable and machine-readable forms.</p>
+        <p>The agentic system continues consuming the JSON file and enforcing the rules it contains. For classifications governed by the second and third revisions, the agent is enforcing a prior governance state while the organization believes it is enforcing the current one.</p>
+        <p>Human review of the policy page would show current rules. Machine review of the JSON file would show different rules. The agent consumes the JSON file.</p>
+      </section>
+
+      <section aria-labelledby="sec-case-5">
+        <h2 id="sec-case-5">Case 5: The archived-but-still-cited reference</h2>
+        <p>A knowledge management team retires a set of internal procedural guides following a governance restructuring. The guides are moved to an archive state: they remain accessible at their original URLs but are marked as superseded in the governance inventory. No redirect, expiry header, or removal is implemented at the URL level.</p>
+        <p>An enterprise agent configured to retrieve and cite internal knowledge-base content does not distinguish between current and archived status. It retrieves the superseded procedural guides in response to relevant queries, cites them as references, and bases its downstream recommendations on their content.</p>
+        <p>Staff who receive the agent’s outputs see cited references with recognizable document titles and valid URLs. Nothing in the output indicates that the guides were superseded eight months earlier. The agent’s citations are accurate. The references are no longer valid governance.</p>
+        <p>This case is structurally distinct from the others: the reference was not changed in place. It was replaced. The problem is that the replacement was not propagated to the systems that cite it.</p>
+      </section>
+
+      <section aria-labelledby="sec-worse">
+        <h2 id="sec-worse">Why agents make reference decay worse</h2>
+        <p>Compared to a human consulting a document, an enterprise agent operating on stale references creates compounding governance risk across six dimensions:</p>
+        <ul>
+          <li><strong>Agents act repeatedly, not once.</strong> A human consulting a decayed reference makes one decision based on it. An agent may execute the same stale reference thousands of times across a workflow cycle before the decay is detected.</li>
+          <li><strong>Agents combine multiple references.</strong> A single agent output may draw from policy documents, risk registers, knowledge-base articles, and machine-readable governance files simultaneously. Decay in any one reference propagates into every decision that incorporates it.</li>
+          <li><strong>Agents automate downstream actions.</strong> Where a human decision relying on a stale reference produces one incorrect outcome, an agent decision may trigger automated approvals, routing decisions, compliance filings, or communication chains before any human reviews the basis for the decision.</li>
+          <li><strong>Agents may cite stale context confidently.</strong> An agent’s output may include citations and justifications that appear well-grounded. The confidence expressed in the output does not distinguish between a valid current reference and a reference that was accurate when indexed but has since changed.</li>
+          <li><strong>Stale references scale across workflows.</strong> If a reference that feeds multiple agent workflows decays, the decay propagates into every workflow that consumes it. The scope of exposure is a function of the reference’s reach across agents, not the error rate of any individual decision.</li>
+          <li><strong>Audit trails record what happened but not whether the reference was valid.</strong> Post-event review may confirm that the agent followed its instructions and cited a real document. It may not establish whether the cited document version was current at the time of the decision, unless version discipline was maintained in the reference layer.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="sec-protocol">
+        <h2 id="sec-protocol">Evergreen Protocol reading</h2>
+        <blockquote>
+          <p>Model governance asks whether the model can be trusted. Reference continuity asks whether the references the agent acts on are still valid.</p>
+        </blockquote>
+        <p>Evergreen Protocol reads the agentic reference continuity problem through seven governance dimensions:</p>
+        <ul>
+          <li><strong>Reference decay</strong> — the decay of validity, traceability, citation stability, or operational reliability in references an agent consults; the central problem this brief documents across five operational cases.</li>
+          <li><strong>Version discipline</strong> — explicit version history for policies, risk thresholds, approval rules, and machine-readable governance files, enabling reconstruction of the exact reference state an agent acted on at decision time.</li>
+          <li><strong>Citation stability</strong> — the stability of reference paths over time, so citations embedded in agent configurations or retrieval systems continue to resolve to the correct governed content rather than archived, superseded, or altered versions.</li>
+          <li><strong>Evidence posture</strong> — the capacity to establish, after the fact, what reference an agent acted on, what version of that reference was current at decision time, and whether the reference was still valid when the decision was made.</li>
+          <li><strong>Definition control</strong> — governed reconciliation of terms that may appear across multiple reference sources with divergent meanings, preventing agents from routing decisions based on the wrong definition context within the same organization.</li>
+          <li><strong>Changelog integrity</strong> — a maintained audit trail showing what changed in each governed reference, when it changed, and what the prior state was, enabling reconstruction of governance state at any point in time and across the full history of agent decisions.</li>
+          <li><strong>Machine-readable reference alignment</strong> — alignment between the human-readable and machine-readable forms of governance content, so agents consuming structured files are not enforcing a prior governance state while the human-readable page reflects current governance.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="sec-nonclaim">
+        <h2 id="sec-nonclaim">What this brief does not claim</h2>
+        <ul>
+          <li>This brief does not certify that any agent, system, or organization is compliant with reference continuity standards.</li>
+          <li>It does not approve or endorse specific models, agent platforms, or AI governance frameworks.</li>
+          <li>It does not create a compliance status, score, rating, or registry entry for any party.</li>
+          <li>It does not replace model governance, AI safety review, legal review, audit, or model-risk management.</li>
+          <li>It does not imply that model safety and reference continuity are the same governance problem — they are not.</li>
+          <li>It does not claim that Evergreen Protocol prevents reference decay or that any protocol prevents all forms of agentic risk.</li>
+          <li>It does not claim that reference continuity resolves all governance challenges in agentic systems.</li>
+        </ul>
+      </section>
+
+      <nav class="next-read" aria-labelledby="next-read-heading">
+        <h2 id="next-read-heading">Related references</h2>
+        <ul>
+          <li><a class="inline" href="/reference-decay/">Reference Decay</a> — definition, decay forms, and governance reading of the central problem term.</li>
+          <li><a class="inline" href="/briefs/reference-decay-in-ai-documentation/">Reference Decay in AI Documentation</a> — Brief 001: four operational cases of reference decay in enterprise AI documentation.</li>
+          <li><a class="inline" href="/operator-use-cases/enterprise-ai-governance/">Enterprise AI Governance Use Case</a> — where reference decay appears in AI governance documentation and how Evergreen Protocol addresses it.</li>
+          <li><a class="inline" href="/reference-continuity-readiness/">Reference Continuity Readiness</a> — self-orientation guide across seven readiness dimensions.</li>
+          <li><a class="inline" href="/machine-readable/">Machine-Readable Reference</a> — static JSON files for AI agents and institutional systems.</li>
+          <li><a class="inline" href="/en/category-standard/">Category Standard</a> — scope, boundary, and version declaration for reference continuity governance.</li>
+        </ul>
+      </nav>
+    </article>
+  </main>
+  <footer class="site">
+    <div class="inner inner--narrow footer-inner">
+      <div class="footer-tagline">evergreenprotocol.com — category standard for AI-era digital continuity. Version 1.0.</div>
+    </div>
+  </footer>
+</body>
+</html>
