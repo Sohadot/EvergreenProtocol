@@ -80,6 +80,12 @@ Priority Tier: tier-2
 
 Maturity Stage: positioned
 
+Current External State: not operating; not externally validated; not acquired
+
+External Validation Status: no third-party validation, certification, endorsement, registry status, score, rating, compliance status, or official recognition has been issued
+
+Operating Status: no operating partner, pilot, licensing arrangement, backend service, form intake, payment flow, pricing page, or automatic acquisition path is active
+
 
 
 ---
