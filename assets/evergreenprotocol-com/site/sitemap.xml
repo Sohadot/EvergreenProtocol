@@ -37,6 +37,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://evergreenprotocol.com/operator-use-cases/enterprise-ai-governance/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://evergreenprotocol.com/en/manifesto/</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>yearly</changefreq>
@@ -74,13 +80,13 @@
   </url>
   <url>
     <loc>https://evergreenprotocol.com/strategic-operating-partnership/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://evergreenprotocol.com/operator-brief/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
