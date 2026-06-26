@@ -6,6 +6,56 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 ---
 
+## 2026-06-26 — Enterprise AI governance operator use case
+
+**Decision:** Evergreen Protocol now carries its first operator use case page at `/operator-use-cases/enterprise-ai-governance/`, demonstrating where reference decay appears in enterprise AI governance documentation and how Evergreen Protocol operates as a reference continuity layer.
+
+**Rationale:** Intelligence briefs establish what reference decay is and what it looks like in practice. Operator use case pages show institutional readers — specifically those managing AI governance programs — where the problem appears in their own documentation layer and what a governed response looks like. The enterprise AI governance use case is the natural first use case: the people responsible for model cards, AI usage policies, prompt guidelines, and risk registers are already managing the documentation types most subject to reference decay. The page makes Evergreen Protocol operationally legible to that audience without positioning it as a replacement for model governance, GRC, compliance, or model-risk management.
+
+**Scope of this decision:**
+
+Public route:
+- `/operator-use-cases/enterprise-ai-governance/`
+
+Page sections:
+- The governance context (eight categories of AI governance documentation)
+- The reference continuity gap (governing blockquote: "Model governance asks whether the model is safe. Reference continuity asks whether the references the model acts on remain valid after deployment.")
+- Where reference decay appears (eight areas with definition-list treatment)
+- How Evergreen Protocol fits (six dimensions — reference continuity layer, not a replacement)
+- Practical operating pattern (seven dimensions)
+- Example workflow (seven steps)
+- What this page does not claim (non-certification section)
+
+Inbound links added from:
+- Homepage (`/en/`) → `/operator-use-cases/enterprise-ai-governance/`
+- `/reference-decay/` → `/operator-use-cases/enterprise-ai-governance/`
+- `/briefs/reference-decay-in-ai-documentation/` → `/operator-use-cases/enterprise-ai-governance/`
+- `/operator-brief/` → `/operator-use-cases/enterprise-ai-governance/`
+- `/strategic-operating-partnership/` → `/operator-use-cases/enterprise-ai-governance/`
+
+Sitemap: `/operator-use-cases/enterprise-ai-governance/` added at priority 0.8.
+
+Architecture: new IA row added for `site/operator-use-cases/enterprise-ai-governance/index.html`.
+
+**Governing blockquote:** Model governance asks whether the model is safe. Reference continuity asks whether the references the model acts on remain valid after deployment.
+
+**Explicit non-decisions (ruled out by this decision):**
+- No certification language created.
+- No model approval or model endorsement implied.
+- No compliance status produced.
+- No organization scored, rated, or registered.
+- No public registry opened.
+- No replacement for legal, audit, or model-risk review implied.
+- No pricing, form, backend, partner application, or acquisition solicitation created.
+- No claim that Evergreen Protocol governs model risk, GRC, or compliance.
+
+**Authority:** Standard owner — evergreenprotocol.com
+**Sprint:** Sprint 12 — Enterprise AI Governance Operator Use Case
+**Related:** `architecture.md` information architecture table; `domain-dossier.md` Sprint 12 update log entry
+
+
+---
+
 ## 2026-06-26 — Reference decay intelligence brief (Brief 001)
 
 **Decision:** Evergreen Protocol now carries its first intelligence brief at `/briefs/reference-decay-in-ai-documentation/`. The brief presents four operational cases of reference decay in enterprise AI documentation: the unversioned model card, the policy URL that still loads, the agent citation from stale knowledge, and definition divergence across departments.
