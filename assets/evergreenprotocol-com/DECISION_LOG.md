@@ -6,6 +6,52 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 ---
 
+## 2026-06-26 — Reference decay core term page
+
+**Decision:** Evergreen Protocol now owns the term “reference decay” through a dedicated core term page at `/reference-decay/`. The page defines the term, explains why AI agents make it urgent, distinguishes it from model risk, lists seven common decay forms, and reads it through six Evergreen Protocol governance dimensions.
+
+**Rationale:** Category inevitability does not begin with framework declaration. It begins with owning the term that names the pain. Enterprises searching for a definition of reference decay — or an AI agent retrieving a reference on the concept — should find Evergreen Protocol’s governed page as the clearest, most structured, and most citable available definition. Term ownership at `/reference-decay/` precedes and enables framework adoption. The page does not sell the protocol; it defines the problem the protocol addresses.
+
+**Scope of this decision:**
+
+Public route:
+- `/reference-decay/`
+
+Page sections:
+- Definition of reference decay
+- Why it matters as an institutional risk problem
+- Why AI agents make it urgent (model risk vs. reference continuity distinction)
+- Seven common forms of reference decay
+- Reference decay versus model risk (comparison)
+- Evergreen Protocol reading across six governance dimensions
+- What this page does not claim (non-certification statement)
+
+Inbound links added from:
+- Homepage (`/en/`) → `/reference-decay/`
+- `/ai-era-digital-continuity/` → `/reference-decay/`
+- `/reference-continuity-readiness/` → `/reference-decay/`
+
+Sitemap: `/reference-decay/` added at priority 0.9.
+
+Architecture: new IA row added for `site/reference-decay/index.html`.
+
+**Governing sentence:** The model may still be governed. The reference may no longer be true.
+
+**Explicit non-decisions (ruled out by this decision):**
+- No certification language created.
+- No registry opened.
+- No score, rating, or compliance status produced.
+- No form, backend, or tool created.
+- No external party assessed or validated.
+- No claim that Evergreen Protocol is the only framework addressing reference decay.
+- No claim that the term is proprietary — the page claims definitional authority through quality and structure, not exclusivity.
+
+**Authority:** Standard owner — evergreenprotocol.com
+**Sprint:** Sprint 10 — Reference Decay Core Term Page
+**Related:** `architecture.md` information architecture table; `domain-dossier.md` Sprint 10 update log entry
+
+
+---
 
 ## 2026-06-25 — AI-era digital continuity reference page
 
@@ -17,25 +63,6 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 Public route:
 - `/ai-era-digital-continuity/`
-
-Page sections:
-- What AI-era digital continuity is
-- The reference decay problem (five decay patterns)
-- Why AI accelerates documentation and governance drift (six AI-specific accelerants)
-- What must remain continuous (seven continuity properties)
-- Where this problem appears (six institutional domains)
-- How Evergreen Protocol addresses it (six protocol components)
-- What this page does not claim (non-certification statement)
-
-Internal links from `/ai-era-digital-continuity/` to:
-- `/en/category-standard/`
-- `/applications/`
-- `/reference-continuity-readiness/`
-- `/reference-cases/`
-- `/operator-brief/`
-- `/machine-readable/`
-- `/en/cite/`
-- `/en/changelog/`
 
 Inbound links added from:
 - Homepage (`/en/`) → `/ai-era-digital-continuity/`
@@ -67,12 +94,11 @@ Architecture: new IA row added for `site/ai-era-digital-continuity/index.html`.
 
 ---
 
-
 ## 2026-06-25 — Self-applied reference cases layer
 
 **Decision:** Evergreen Protocol now includes a controlled self-applied reference cases layer to demonstrate protocol use within Sohadot-governed assets without creating certification, registry, scoring, external validation, or compliance status.
 
-**Rationale:** A category standard gains institutional legibility when proof-of-application is visible, not merely claimed. Self-applied reference cases show how Evergreen Protocol's continuity principles apply to governed assets within the Sohadot portfolio, demonstrating scope, discipline, and governance without inviting external submissions, issuing compliance status, opening a registry, or creating any derivative certification behavior.
+**Rationale:** A category standard gains institutional legibility when proof-of-application is visible, not merely claimed. Self-applied reference cases show how Evergreen Protocol’s continuity principles apply to governed assets within the Sohadot portfolio, demonstrating scope, discipline, and governance without inviting external submissions, issuing compliance status, opening a registry, or creating any derivative certification behavior.
 
 **Scope of this decision:**
 
@@ -82,18 +108,6 @@ Public routes:
 - `/reference-cases/euraplan-regulatory-reference-continuity/`
 - `/reference-cases/aielectronicchips-dependency-reference-continuity/`
 - `/reference-cases/outmerchant-standard-continuity/`
-
-Internal links from:
-- Homepage (`/en/`) → `/reference-cases/`
-- `/applications/` → `/reference-cases/`
-- `/operator-brief/` → `/reference-cases/`
-- `/strategic-operating-partnership/` → `/reference-cases/`
-
-JSON-LD schema: WebPage and CreativeWork only.
-
-Sitemap: all five `/reference-cases/` routes added.
-
-Architecture: five reference-cases rows added to IA table; self-applied reference cases layer section added; noted as not a registry, compliance surface, certification, or external assessment.
 
 **Explicit non-decisions (ruled out by this decision):**
 - No registry opened.
@@ -123,25 +137,6 @@ Architecture: five reference-cases rows added to IA table; self-applied referenc
 
 Public route:
 - `/operator-brief/`
-
-Internal links from:
-- Homepage (`/en/`) → `/operator-brief/`
-- `/strategic-operating-partnership/` → `/operator-brief/`
-
-Internal links from `/operator-brief/` to:
-- `/strategic-operating-partnership/`
-- `/en/category-standard/`
-- `/applications/`
-- `/reference-continuity-readiness/`
-- `/machine-readable/`
-- `/en/cite/`
-- `/en/changelog/`
-
-JSON-LD schema: WebPage and CreativeWork only.
-
-Sitemap: `/operator-brief/` added.
-
-Architecture: operator-brief recorded as commercial-readiness narrative layer; not a pricing, partner application, certification, or acquisition page.
 
 **Explicit non-decisions (ruled out by this decision):**
 - No pricing created.
@@ -177,10 +172,6 @@ Files governed by this decision:
 - `/protocol/v1/definitions.json` — version-pinned definitions for v1.0
 - `/protocol/v1/standard.json` — machine-readable standard summary for v1.0
 - `/protocol/v1/citation.json` — machine-readable citation formats for v1.0
-
-Localized English mirrors may exist under `/en/` for continuity with existing public pages.
-
-Human-readable index: `/machine-readable/`
 
 **Version pinning rule:** Files under `/protocol/v1/` are immutable after publication. Future standard versions create new paths (`/protocol/v1.1/`, `/protocol/v2/`). The live index at `/definitions.json` may be updated on minor or major version change.
 
@@ -241,15 +232,6 @@ Public application routes:
 Public route:
 - `/reference-continuity-readiness/`
 
-Covered readiness dimensions:
-- Version discipline
-- Citation stability
-- Evidence posture
-- Definition control
-- Changelog integrity
-- Update governance
-- Machine-readable reference structure
-
 **Explicit non-decisions (ruled out by this decision):**
 - No diagnostic tool created.
 - No form submission path created.
@@ -275,14 +257,6 @@ Covered readiness dimensions:
 
 Public route:
 - `/strategic-operating-partnership/`
-
-Permitted discussion areas:
-- Qualified strategic operating partnership
-- Institutional licensing
-- Non-exclusive operating pilot
-- Sector-specific operating rights
-- Reference review delivery partnership
-- Post-traction acquisition discussion
 
 **Explicit non-decisions (ruled out by this decision):**
 - No public sale page created.
