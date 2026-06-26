@@ -29,7 +29,7 @@ Secondary Objective: dignified recurring income without degrading authority, pre
 
 Date Opened: 2025-06-25
 
-Last Updated: 2026-06-25
+Last Updated: 2026-06-26
 
 
 
@@ -793,9 +793,8 @@ complete Sprint 2 review and prepare Sprint 3 proof-of-application planning with
 
 Why This Is the Correct Next Action
 
-Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. Sprint 3 is complete: reference applications opened to demonstrate protocol applicability without certification or registry behavior. Sprint 4 is complete: the readiness layer opened as a self-orientation guide, not as certification, scoring, compliance, or external assessment. Sprint 5 is complete: operating-partner legibility established; asset remains positioned, not yet commercially validated. Sprint 6 is complete: operator brief activated to support qualified enterprise operator legibility; asset remains positioned pending external traction. Sprint 8 is complete: proof-of-application strengthened through self-applied reference cases within Sohadot-governed assets; asset remains positioned pending external traction. Sprint 9 is complete: the core market problem page — AI-Era Digital Continuity — now exists as a flagship reference page at `/ai-era-digital-continuity/`, making the problem Evergreen Protocol addresses publicly legible outside the /en/ path hierarchy. The category is declared, machine-readable, demonstrated across bounded application domains, practically legible, commercially readable under controlled boundaries, legible to qualified institutional operators through a governed concise brief, strengthened through self-applied proof-of-application cases, and the core market problem is now publicly legible at the root path.
+Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. Sprint 3 is complete: reference applications opened to demonstrate protocol applicability without certification or registry behavior. Sprint 4 is complete: the readiness layer opened as a self-orientation guide, not as certification, scoring, compliance, or external assessment. Sprint 5 is complete: operating-partner legibility established; asset remains positioned, not yet commercially validated. Sprint 6 is complete: operator brief activated to support qualified enterprise operator legibility; asset remains positioned pending external traction. Sprint 8 is complete: proof-of-application strengthened through self-applied reference cases within Sohadot-governed assets; asset remains positioned pending external traction. Sprint 9 is complete: the core market problem page — AI-Era Digital Continuity — now exists as a flagship reference page at `/ai-era-digital-continuity/`, making the problem Evergreen Protocol addresses publicly legible outside the /en/ path hierarchy. Sprint 10 is complete: the asset now owns the term “reference decay” through a dedicated core term page at `/reference-decay/` — the first step toward category inevitability through term ownership rather than framework declaration alone. Sprint 11 is complete: the asset now carries its first intelligence brief — Brief 001 at `/briefs/reference-decay-in-ai-documentation/` — presenting four operational cases of reference decay in enterprise AI documentation. The brief extends term ownership into analytical depth: the asset now both defines the problem term and demonstrates it through specific, citable operational scenarios that institutional readers can recognize and forward internally. The category is declared, machine-readable, demonstrated across bounded application domains, practically legible, commercially readable under controlled boundaries, legible to qualified institutional operators through a governed concise brief, strengthened through self-applied proof-of-application cases, the core market problem is publicly legible at the root path, the central problem term is now owned as a reference, and the first intelligence brief demonstrates the term through four specific operational cases in enterprise AI documentation.
 
-Sprint 1 established the category claim, published eight governed pages, and reframed every existing page with consistent category-standard identity. Sprint 2 is complete: the asset now exposes a static, versioned, machine-readable reference structure through `/definitions.json`, `/protocol/v1/definitions.json`, `/protocol/v1/standard.json`, `/protocol/v1/citation.json`, and `/machine-readable/`. Sprint 3 is complete: reference applications opened to demonstrate protocol applicability without certification or registry behavior. Sprint 4 is complete: the readiness layer opened as a self-orientation guide, not as certification, scoring, compliance, or external assessment. Sprint 5 is complete: operating-partner legibility established; asset remains positioned, not yet commercially validated. Sprint 6 is complete: operator brief activated to support qualified enterprise operator legibility; asset remains positioned pending external traction. Sprint 8 is complete: proof-of-application strengthened through self-applied reference cases within Sohadot-governed assets; asset remains positioned pending external traction. The category is declared, machine-readable, demonstrated across bounded application domains, practically legible, commercially readable under controlled boundaries, legible to qualified institutional operators through a governed concise brief, and strengthened through self-applied proof-of-application cases.
 
 ---
 
@@ -895,9 +894,31 @@ Date: 2026-06-25
 
 Change Type: flagship reference page
 
-Summary: Created `/ai-era-digital-continuity/` as a root-level public reference page explaining the core market problem Evergreen Protocol addresses: AI-era digital continuity and reference decay under accelerated institutional change. The page covers what AI-era digital continuity is, the reference decay problem, why AI accelerates documentation and governance drift, what must remain continuous, where the problem appears, how Evergreen Protocol addresses it, and a non-claim statement. Added inbound links from homepage, category standard, applications hub, reference cases hub, and operator brief. Updated sitemap, architecture, and governance records.
+Summary: Created `/ai-era-digital-continuity/` as a root-level public reference page explaining the core market problem Evergreen Protocol addresses: AI-era digital continuity and reference decay under accelerated institutional change. Added inbound links from homepage, category standard, applications hub, reference cases hub, and operator brief. Updated sitemap, architecture, and governance records.
 
-Strategic Meaning: The core market problem Evergreen Protocol addresses is now publicly legible at a root-level page outside the /en/ path hierarchy. The flagship reference page supports reader orientation, institutional intelligibility, and search discovery of the continuity governance problem space. Asset maturity remains positioned.
+Strategic Meaning: The core market problem Evergreen Protocol addresses is now publicly legible at a root-level page outside the /en/ path hierarchy. Asset maturity remains positioned.
+
+
+Sprint 10 — Reference Decay Core Term Page
+
+Date: 2026-06-26
+
+Change Type: core term page
+
+Summary: Created `/reference-decay/` as the owned definition of the central problem term. The page covers definition, why it matters, why AI agents make it urgent, seven common decay forms, distinction from model risk (governed model / ungoverned material), and the Evergreen Protocol reading across six governance dimensions. Added inbound links from homepage, `/ai-era-digital-continuity/`, and `/reference-continuity-readiness/`. Updated sitemap (priority 0.9), architecture IA table, and governance records.
+
+Strategic Meaning: The asset now owns the term “reference decay” as a public reference. This is the first step toward category inevitability through term ownership: a reader or AI agent searching for a definition of reference decay should find Evergreen Protocol's governed page as the clearest available answer. Term ownership precedes framework adoption.
+
+
+Sprint 11 — Reference Decay in AI Documentation (Brief 001)
+
+Date: 2026-06-26
+
+Change Type: intelligence brief
+
+Summary: Created `/briefs/reference-decay-in-ai-documentation/` as Brief 001 in the Reference Decay Series. The brief presents four operational cases: the unversioned model card (updated in place without version history, prior governance decisions cannot be reconstructed), the policy URL that still loads (revised without versioning, all prior citations now point to a different document), the agent citation from stale knowledge (model performed correctly, reference was wrong), and definition divergence across departments (same term, two governed meanings, contradictory governance outputs). Includes compound governance exposure section and governance gap analysis distinguishing model risk from reference continuity governance. Inbound links added from homepage and `/reference-decay/`.
+
+Strategic Meaning: Brief 001 extends term ownership into analytical depth. A reader or AI agent searching for what reference decay looks like in practice — not just what it is defined as — should find this brief as the clearest, most specific available answer. The brief provides the kind of analytical intelligence that an enterprise AI governance practitioner would forward internally: four specific, recognizable scenarios with named governance consequences, not abstract positioning about a standard.
 
 
 ---
