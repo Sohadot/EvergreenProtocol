@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#F6F8F3">
+  <meta name="robots" content="index,follow">
+  <title>Enterprise AI Governance Use Case — Evergreen Protocol</title>
+  <meta name="description" content="How enterprise AI governance, GRC, and compliance teams apply Evergreen Protocol as a reference continuity layer for model documentation, policies, and knowledge bases.">
+  <link rel="canonical" href="https://evergreenprotocol.com/operator-use-cases/enterprise-ai-governance/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Evergreen Protocol">
+  <meta property="og:title" content="Enterprise AI Governance Use Case — Evergreen Protocol">
+  <meta property="og:description" content="Where reference decay appears in enterprise AI governance documentation and how Evergreen Protocol fits as a reference continuity layer — not a replacement for model governance, GRC, or compliance.">
+  <meta property="og:url" content="https://evergreenprotocol.com/operator-use-cases/enterprise-ai-governance/">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Enterprise AI Governance Use Case — Evergreen Protocol">
+  <meta name="twitter:description" content="Where reference decay appears in enterprise AI governance documentation and how Evergreen Protocol applies as a reference continuity layer.">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","name":"Enterprise AI Governance Use Case — Evergreen Protocol","description":"How enterprise AI governance, GRC, and compliance teams apply Evergreen Protocol as a reference continuity layer for model documentation, policies, and knowledge bases.","url":"https://evergreenprotocol.com/operator-use-cases/enterprise-ai-governance/","datePublished":"2026-06-26","dateModified":"2026-06-26","isPartOf":{"@type":"WebSite","name":"Evergreen Protocol","url":"https://evergreenprotocol.com/"},"about":{"@type":"CreativeWork","name":"Evergreen Protocol","version":"1.0","url":"https://evergreenprotocol.com/en/category-standard/"}}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site">
+    <div class="inner inner--narrow">
+      <div class="site-brand-row">
+        <span class="site-domain">evergreenprotocol.com</span>
+        <span class="site-purpose">Operator use case · Enterprise AI governance</span>
+      </div>
+      <nav class="primary" aria-label="Primary navigation">
+        <a class="brand" href="/en/">Home</a>
+        <a href="/en/category-standard/">Category Standard</a>
+        <a href="/ai-era-digital-continuity/">AI-Era Continuity</a>
+        <a href="/reference-decay/">Reference Decay</a>
+        <a href="/reference-continuity-readiness/">Readiness</a>
+        <a href="/machine-readable/">Machine-Readable</a>
+        <a href="/en/cite/">Cite</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <article class="inner inner--narrow">
+      <header class="doc-head">
+        <p class="doc-layer-badge">Operator use case · Enterprise AI governance</p>
+        <h1>Enterprise AI Governance Use Case</h1>
+        <p class="doc-summary">Enterprise AI governance programs manage model documentation, usage policies, risk registers, and knowledge bases that AI agents and compliance functions depend on as valid. This page describes where reference decay appears in that layer, how Evergreen Protocol addresses it, and what a practical implementation looks like.</p>
+      </header>
+
+      <section aria-labelledby="sec-context">
+        <h2 id="sec-context">The governance context</h2>
+        <p>Enterprise AI governance programs are responsible for the documentation and control structures that govern AI deployments across an organization. This typically includes:</p>
+        <ul>
+          <li>Model documentation — model cards, system cards, and technical documentation for deployed models.</li>
+          <li>AI usage and access policies — governing who may use AI systems, for what purposes, and under what constraints.</li>
+          <li>Prompt guidelines and operational constraints — governing how AI systems are prompted, what they may and may not be directed to do, and under whose authority.</li>
+          <li>Data-use policies — governing what data AI systems may process, under what conditions, and subject to which contractual or regulatory constraints.</li>
+          <li>Risk registers and assessments — maintaining current records of risk categorization, mitigations, and residual risks across AI systems.</li>
+          <li>Vendor definitions and service agreements — AI provider contracts, usage policies, and definitions governing what external AI services may be used for.</li>
+          <li>Internal knowledge bases — documentation that AI agents retrieve to answer questions, execute workflows, or support decisions.</li>
+          <li>Machine-readable governance files — structured reference files consumed by AI systems, orchestration layers, and compliance tooling.</li>
+        </ul>
+        <p>These documents are not static artifacts. They change as models change, regulations change, organizational priorities change, and AI capabilities expand. Each change creates the conditions for reference decay if version discipline and continuity governance are absent.</p>
+      </section>
+
+      <section aria-labelledby="sec-gap">
+        <h2 id="sec-gap">The reference continuity gap</h2>
+        <p>Enterprise AI governance programs have developed significant capability in model risk governance: evaluating model safety, managing bias, governing deployment decisions, and maintaining responsible AI principles. That governance addresses the model.</p>
+        <p>It does not address what the model acts on:</p>
+        <blockquote>
+          <p>Model governance asks whether the model is safe. Reference continuity asks whether the references the model acts on remain valid after deployment.</p>
+        </blockquote>
+        <p>A compliant, well-governed AI deployment can simultaneously operate on usage policies that have been silently revised, knowledge bases that reflect a prior contractual reality, model cards from which prior versions have been deleted, and risk registers that have not been updated to reflect changed operating conditions. None of these failures are visible in the model. They are failures in the reference layer.</p>
+        <p>Existing AI governance frameworks — responsible AI principles, model cards, safety evaluations, risk tiering, deployment checklists — were designed for model risk. They establish what the model is and how it behaves. They do not require that the references those governance structures cite remain valid, versioned, and traceable after publication.</p>
+        <p>That is the reference continuity gap. It is not a gap in model governance; it is a gap beside it.</p>
+      </section>
+
+      <section aria-labelledby="sec-where">
+        <h2 id="sec-where">Where reference decay appears in AI governance documentation</h2>
+        <p>Reference decay appears in specific and predictable places in enterprise AI governance documentation:</p>
+        <dl class="definition-list">
+          <dt>Model cards</dt>
+          <dd>Updated in place without version records. Prior evaluations, risk categorizations, and input constraint records cannot be reconstructed. Audit citations to a model card URL no longer reference what was in force at the time of the cited decision.</dd>
+          <dt>AI usage and access policies</dt>
+          <dd>Revised without versioning. Employees and teams that complied with an earlier policy cannot demonstrate that their behavior matched the policy in force when they acted. Governance documents citing the policy URL reference a different document than the one they incorporated.</dd>
+          <dt>Prompt guidelines and operational constraints</dt>
+          <dd>Changed without a changelog. When operational constraints are updated silently, prior AI outputs governed under different constraints cannot be evaluated against the constraints that were actually in effect at the time of production.</dd>
+          <dt>Data-use policies</dt>
+          <dd>Revised to reflect new contractual, regulatory, or consent conditions without updating AI agents that retrieve data-use information from knowledge bases. The agent continues to respond as if the prior policy governs.</dd>
+          <dt>Risk registers and assessments</dt>
+          <dd>Not updated when the operational context of a deployed AI system changes. The register states a risk categorization that no longer reflects the current operating environment, and downstream governance decisions inherit the outdated classification.</dd>
+          <dt>Vendor definitions and service agreements</dt>
+          <dd>External AI provider policies and definitions change without triggering internal reference updates. Internal governance documents that incorporate vendor definitions by reference are no longer aligned with the current vendor policy.</dd>
+          <dt>Internal knowledge bases</dt>
+          <dd>Not updated when the policies, contracts, or operational realities they describe change. AI agents retrieve entries that were accurate at authoring but no longer reflect the governing constraint at the time of retrieval.</dd>
+          <dt>Machine-readable governance files</dt>
+          <dd>Updated independently of human-readable counterparts, or allowed to drift from the policies they are intended to represent. AI systems consuming the structured reference operate on a different version than what the human-readable policy states.</dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="sec-fit">
+        <h2 id="sec-fit">How Evergreen Protocol fits</h2>
+        <p>Evergreen Protocol is a reference continuity layer. It does not replace model governance, GRC, compliance programs, or model-risk management. It addresses the discipline that sits beside them: keeping the reference layer that AI agents, governance processes, and audit functions depend on valid, versioned, citable, and internally consistent across time.</p>
+        <p>Applied to enterprise AI governance, Evergreen Protocol provides:</p>
+        <ul>
+          <li><strong>A versioning standard</strong> for AI governance documents — defining when a version change is material, what must be recorded, and how prior versions must be preserved and citable.</li>
+          <li><strong>A citation discipline</strong> — ensuring that governance documents, decision records, and audit trails cite specific versions of the references they depend on, not live documents that change without notice.</li>
+          <li><strong>A definition governance framework</strong> — establishing controlled, versioned definitions for governance terms used across risk, legal, compliance, and product functions so that the same term carries the same meaning across documents.</li>
+          <li><strong>An evidence posture standard</strong> — ensuring that AI-assisted outputs, advisory summaries, and decisions can be traced to the source material that was valid at the point of production.</li>
+          <li><strong>A changelog discipline</strong> — maintaining a governed change record for material reference changes so that institutional memory of what governed a decision at a specific time does not depend on individual recall.</li>
+          <li><strong>A machine-readable alignment standard</strong> — keeping structured reference files and human-readable policies in version-matched synchrony so that AI agents and human reviewers consume the same governing reference.</li>
+        </ul>
+        <p>Evergreen Protocol does not evaluate models, issue compliance status, certify organizations, or replace legal, audit, or model-risk review functions. It governs the reference layer those functions depend on.</p>
+      </section>
+
+      <section aria-labelledby="sec-pattern">
+        <h2 id="sec-pattern">Practical operating pattern</h2>
+        <p>An enterprise AI governance program applying Evergreen Protocol as a reference continuity layer works across seven operating dimensions:</p>
+        <ul>
+          <li><strong>Identify reference decay.</strong> Map which AI governance documents lack version history, which policy citations cannot be traced to the version in force at a given date, and which knowledge-base entries may no longer reflect the current governing constraint.</li>
+          <li><strong>Preserve version history.</strong> Apply version discipline to model cards, usage policies, and governance frameworks. Prior states must be preserved and citable, not overwritten. Material changes require a version record before deployment.</li>
+          <li><strong>Stabilize definitions.</strong> Establish controlled, versioned definitions for governance terms — high-risk AI system, permitted use, data subject, responsible party — used across risk, legal, compliance, and product functions. Reconcile diverging definitions before they produce contradictory governance outputs.</li>
+          <li><strong>Maintain citation paths.</strong> Anchor external regulatory references, standards citations, and internal governance cross-references to specific versions. Live document citations decay at the moment the document changes; versioned citations do not.</li>
+          <li><strong>Align human-readable and machine-readable references.</strong> Keep JSON governance files, knowledge-base content, and human-readable policies in version-matched synchrony. When a policy changes, update both representations in the same governance event, not independently.</li>
+          <li><strong>Preserve changelog memory.</strong> Maintain a governed change record for material reference changes. Institutional memory of what governed a decision at a specific time must not depend on individual recall; it must exist in a governed record.</li>
+          <li><strong>Clarify evidence posture.</strong> Ensure that AI-assisted outputs, advisory summaries, and decision records are traceable to the source material that was valid at the point of production. An AI-generated regulatory advisory that cannot be traced to the regulatory reference it acted on has an incomplete evidence posture.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="sec-workflow">
+        <h2 id="sec-workflow">Example workflow</h2>
+        <p>The following workflow illustrates how an enterprise AI governance team applies reference continuity governance to a deployed AI system:</p>
+        <ol>
+          <li><strong>Map the reference layer.</strong> Identify every governance document, policy, model card, risk register, and knowledge-base entry that the deployed AI system depends on, directly or through retrieval. Document which are currently versioned, which are updated in place, and which have no change record.</li>
+          <li><strong>Prioritize by dependency weight.</strong> Rank references by how many downstream systems, decisions, agents, or compliance functions depend on them as valid. High-dependency references with no version control represent the highest reference continuity risk.</li>
+          <li><strong>Apply version and changelog controls to high-priority references.</strong> For each high-priority reference, establish a versioning convention, a publication authority, and a minimum changelog record. Changes to these references must be approved, versioned, and recorded before deployment.</li>
+          <li><strong>Stabilize the governing definition set.</strong> Identify governance terms used across multiple documents and verify consistency. Where definitions diverge, establish a canonical versioned definition and update dependent documents so that the same term means the same thing across the governance layer.</li>
+          <li><strong>Align machine-readable governance files.</strong> Audit structured governance files — risk-tier JSON, policy exports, knowledge-base schemas — against their human-readable counterparts. Resolve any divergence and establish a synchrony protocol so future updates propagate consistently.</li>
+          <li><strong>Establish a review cadence.</strong> Define when each governed reference is reviewed: on a scheduled interval or when a material triggering condition occurs (model update, regulatory change, organizational restructuring). Reference decay compounds between reviews; a defined cadence limits the accumulation.</li>
+          <li><strong>Anchor decision records to versioned citations.</strong> For governance decisions, compliance assessments, and AI-assisted advisory outputs, cite the specific version of each governing reference that was valid at the point of the decision. This preserves the evidentiary basis and makes retrospective audit tractable.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="sec-nonclaim">
+        <h2 id="sec-nonclaim">What this page does not claim</h2>
+        <p>This page describes how Evergreen Protocol operates as a reference continuity layer in enterprise AI governance contexts. It does not:</p>
+        <ul>
+          <li>Certify or assess any organization's AI governance posture or reference continuity maturity.</li>
+          <li>Issue scores, ratings, maturity levels, or compliance designations of any kind.</li>
+          <li>Approve or validate any AI model, deployment, or governance program.</li>
+          <li>Create or open a public or private registry of assessed, approved, or participating organizations.</li>
+          <li>Replace legal review, audit function, model-risk management, or GRC program activities — it governs the reference layer those functions depend on.</li>
+          <li>Claim that Evergreen Protocol eliminates reference decay — it governs a discipline, not an outcome guarantee.</li>
+          <li>Assert that no other framework addresses reference continuity — adjacent governance frameworks address related problems from different angles.</li>
+        </ul>
+      </section>
+
+      <nav class="next-read" aria-labelledby="next-read-heading">
+        <h2 id="next-read-heading">Related references</h2>
+        <ul>
+          <li><a class="inline" href="/reference-decay/">Reference Decay</a> — the core term definition: what reference decay is and why it differs from model risk.</li>
+          <li><a class="inline" href="/briefs/reference-decay-in-ai-documentation/">Reference Decay in AI Documentation</a> — Brief 001: four operational cases of reference decay in enterprise AI documentation.</li>
+          <li><a class="inline" href="/reference-continuity-readiness/">Reference Continuity Readiness</a> — self-orientation guide across seven readiness dimensions.</li>
+          <li><a class="inline" href="/machine-readable/">Machine-Readable Reference</a> — static JSON files for AI agents and institutional systems.</li>
+          <li><a class="inline" href="/en/category-standard/">Category Standard</a> — the reference continuity governance declaration.</li>
+          <li><a class="inline" href="/operator-brief/">Operator Brief</a> — concise institutional brief for qualified enterprise operators.</li>
+        </ul>
+      </nav>
+    </article>
+  </main>
+  <footer class="site">
+    <div class="inner inner--narrow footer-inner">
+      <div class="footer-tagline">evergreenprotocol.com — category standard for AI-era digital continuity. Version 1.0.</div>
+    </div>
+  </footer>
+</body>
+</html>
