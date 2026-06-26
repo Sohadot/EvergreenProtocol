@@ -37,6 +37,7 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 | `site/reference-continuity-readiness/index.html` | Practical readiness entry point — self-orientation guide for institutional readers. |
 | `site/strategic-operating-partnership/index.html` | Controlled commercial-readiness surface for qualified operating, licensing, and post-traction acquisition discussions. |
 | `site/operator-brief/index.html` | Operator Brief — commercial-readiness narrative layer for qualified enterprise operators; not a pricing, partner application, certification, or acquisition page. |
+| `site/ai-era-digital-continuity/index.html` | AI-Era Digital Continuity — flagship reference page explaining the core market problem Evergreen Protocol addresses: reference decay, documentation drift, and the loss of governance coherence under AI-era acceleration. |
 | `site/reference-cases/index.html` | Self-Applied Reference Cases hub — proof-of-application layer showing protocol use within Sohadot-governed assets; not a registry, compliance surface, certification, or external assessment. |
 | `site/reference-cases/bisulfid-reference-atlas-continuity/index.html` | Bisulfid — self-applied reference case; reference atlas continuity. |
 | `site/reference-cases/euraplan-regulatory-reference-continuity/index.html` | EuraPlan — self-applied reference case; regulatory reference continuity (multi-country). |
