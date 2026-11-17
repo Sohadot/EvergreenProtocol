@@ -17,6 +17,7 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 ## Public surface (`site/`)
 
 - **Shared stylesheet:** `site/assets/css/main.css` — all page styling; HTML must not carry presentation in `<style>` or inline `style` attributes.
+- **Social sharing asset:** `site/assets/social/evergreen-protocol-card.png` (1200 × 630 PNG) is the publicly served preview image for `/` and `/en/`; the adjacent `.svg` is its editable vector source. The root redirect must expose the same image metadata independently of client-side redirects.
 - **Locale:** English pages live under `site/en/` only. Additional locales are out of scope until explicitly approved.
 
 ### Information architecture (current)
