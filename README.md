@@ -108,7 +108,7 @@ assets/evergreenprotocol-com/
 
 ## Development stage
 
-This repository is in **active reference construction**. Nine sprints complete:
+The governed reference surface has completed its construction and release audit through **Sprint 14**. The current phase is **controlled commercial validation**, not established commercial operation:
 
 | Sprint | Deliverable |
 |--------|-------------|
@@ -120,6 +120,13 @@ This repository is in **active reference construction**. Nine sprints complete:
 | 6 | Operator brief layer |
 | 8 | Self-applied reference cases layer (4 case pages) |
 | 9 | AI-era digital continuity flagship reference page |
+| 10 | Reference decay core term |
+| 11 | Reference Decay Intelligence Brief 001 |
+| 12 | Enterprise AI governance operator use case |
+| 13 | Agentic systems intelligence brief 002 |
+| 14 | Public surface release audit and claim-boundary tightening |
+
+The next commercial test is one proposed [Reference Continuity Evidence Brief](assets/evergreenprotocol-com/site/engagements/reference-continuity-evidence-brief/index.html) for qualified institutional scoping. Publication of this page does not imply a paying customer, active pilot, certification, or external recognition.
 
 Further expansion (additional locales, external partner program, dynamic API, MCP endpoint, certification system) remains **gated** until dossier and architecture criteria are met.
 

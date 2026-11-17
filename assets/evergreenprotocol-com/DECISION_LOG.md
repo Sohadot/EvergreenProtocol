@@ -6,6 +6,22 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 ---
 
+## 2026-11-17 — Controlled commercial validation entry point
+
+**Decision:** Establish one bounded commercial-validation pathway through `/engagements/reference-continuity-evidence-brief/`. The proposed Reference Continuity Evidence Brief examines at most ten approved public reference artifacts within one defined institutional question. The page permits permission-based scoping inquiries by email and states a deliverable, source boundary, written commercial acceptance requirement, and explicit exclusions.
+
+**Rationale:** The reference architecture and operator narrative are developed enough to articulate a first testable offer, but no external customer, payment, repeatable delivery economics, or independently validated demand is evidenced. A narrow, evidence-led pilot is a more useful next test than widening a list of hypothetical services. The category standard must remain separable from any optional operating engagement.
+
+**Governance:** Commercial terms and delivery capacity require written agreement before work starts. No confidential content is solicited via the public email channel. No prospect list, unpublished proposal economics, or personal customer information belongs in the public repository. Qualified inbound discussion is permitted; mass or unsolicited outreach is not part of this decision. External validation, payment, active operations, and customer outcomes must not be claimed until independently evidenced and recorded.
+
+**Explicit non-decisions:** No live payment, form intake, assessment engine, certification, scoring, public customer registry, guarantee of risk reduction, affiliate arrangement, or public pricing. No rights to the domain or category standard are transferred. A published proposal is not a completed commercial engagement.
+
+**Next gate:** Obtain a qualified prospect's written agreement to scope and fee, then successfully deliver and document an evidence-linked brief before asserting commercial traction. Pricing, capacity, legal terms, customer handling, and ongoing support are not yet established.
+
+**Authority:** Standard owner — evergreenprotocol.com
+
+---
+
 ## 2026-11-17 — Social preview metadata and governed visual identity
 
 **Decision:** The root URL `/` and the English landing page `/en/` each publish complete Open Graph and large-image X/Twitter metadata referencing one versioned-in-repository PNG sharing image. The PNG's vector source is retained for controlled future revisions.
