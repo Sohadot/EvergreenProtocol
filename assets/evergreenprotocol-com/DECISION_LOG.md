@@ -6,6 +6,20 @@ Each entry states the decision, rationale, scope, and explicit non-decisions so 
 
 ---
 
+## 2026-11-17 — Social preview metadata and governed visual identity
+
+**Decision:** The root URL `/` and the English landing page `/en/` each publish complete Open Graph and large-image X/Twitter metadata referencing one versioned-in-repository PNG sharing image. The PNG's vector source is retained for controlled future revisions.
+
+**Rationale:** The root page uses an HTML refresh redirect, which is not guaranteed to be followed by social platform crawlers. Publishing explicit metadata on both URLs ensures that link-preview bots can read the image reference without relying on redirect behavior. The visual follows the site's restrained forest-green, teal, and symbolic-gold palette and communicates reference integrity without claiming certification or independent validation.
+
+**Scope:** Static meta tags, a 1200 × 630 PNG and editable SVG under `site/assets/social/`, and offline regression checks run on pull requests. The existing canonical URL and root-page refresh remain unchanged. The site content, claims, information architecture, and protocol definitions are unchanged.
+
+**Explicit non-decisions:** No claim of external certification, endorsement, operational compliance, or third-party verification. No dynamic image generator, analytics service, alternate publication root, or change to the governance model.
+
+**Authority:** Standard owner — evergreenprotocol.com
+
+---
+
 ## 2026-06-26 — Agentic systems and reference continuity (Brief 002)
 
 **Decision:** Evergreen Protocol now carries its second intelligence brief at `/briefs/agentic-systems-and-reference-continuity/`, analyzing five operational cases in which an enterprise agent executes correctly while the reference it acts on has decayed, and introducing the three-failure-mode taxonomy distinguishing model failure, execution failure, and reference failure.
