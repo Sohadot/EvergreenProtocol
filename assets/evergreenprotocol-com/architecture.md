@@ -18,7 +18,7 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 
 - **Shared stylesheet:** `site/assets/css/main.css` — all page styling; HTML must not carry presentation in `<style>` or inline `style` attributes.
 - **Social sharing asset:** `site/assets/social/evergreen-protocol-card.png` (1200 × 630 PNG) is the publicly served preview image for `/` and `/en/`; the adjacent `.svg` is its editable vector source. The root redirect must expose the same image metadata independently of client-side redirects.
-- **Locale:** English pages live under `site/en/` only. Additional locales are out of scope until explicitly approved.
+- **Locale:** The core English category-standard pages live under `site/en/`; approved thematic, application, and operator routes are published at the root paths recorded below. Additional locales are out of scope until explicitly approved.
 
 ### Information architecture (current)
 
@@ -38,6 +38,7 @@ No parallel roots (`docs/`, `dist/`, `public/`, or duplicate site roots) are per
 | `site/reference-continuity-readiness/index.html` | Practical readiness entry point — self-orientation guide for institutional readers. |
 | `site/strategic-operating-partnership/index.html` | Controlled commercial-readiness surface for qualified operating, licensing, and post-traction acquisition discussions. |
 | `site/operator-brief/index.html` | Operator Brief — commercial-readiness narrative layer for qualified enterprise operators; not a pricing, partner application, certification, or acquisition page. |
+| `site/engagements/reference-continuity-evidence-brief/index.html` | Controlled commercial-validation entry point: proposed public-evidence brief, bounded deliverables and exclusions, and an email-only scoping request. Not an activated service, checkout, certification, or external validation claim. |
 | `site/ai-era-digital-continuity/index.html` | AI-Era Digital Continuity — flagship reference page explaining the core market problem Evergreen Protocol addresses: reference decay, documentation drift, and the loss of governance coherence under AI-era acceleration. |
 | `site/reference-decay/index.html` | Reference Decay — core term page defining the central problem: the loss of validity, traceability, citation stability, or operational reliability of a digital reference over time; includes AI agent governance distinction, common decay forms, and Evergreen Protocol reading. |
 | `site/briefs/reference-decay-in-ai-documentation/index.html` | Reference Decay in AI Documentation — Intelligence Brief 001: four operational cases of reference decay in enterprise AI documentation (unversioned model card, policy URL that still loads, agent citation from stale knowledge, definition divergence across departments); includes compound governance exposure analysis and governance gap distinction between model risk and reference continuity governance. |

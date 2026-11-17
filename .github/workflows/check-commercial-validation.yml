@@ -1,0 +1,18 @@
+name: Check Commercial Validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  commercial-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check bounded pilot offer and claim boundaries
+        run: python3 scripts/check_commercial_validation.py
